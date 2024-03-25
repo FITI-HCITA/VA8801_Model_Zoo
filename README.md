@@ -1,6 +1,7 @@
 # VA8801_Model_Zoo
-<br>Standard model format is INT8 tflite.
-<br>Using 天元 compiler for VA8801
+**<br>Standard model format is INT8 tflite.
+<br>Using 天元 compiler for VA8801**
+
 
 <br>AudioDenoise(AD) - 語音去躁 
 <br>AudioSoundEvents(SED) - 異常聲音檢測
