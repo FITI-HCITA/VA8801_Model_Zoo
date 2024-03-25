@@ -1,0 +1,2192 @@
+
+utt: TVSPK000UT000
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 开 电 视 
+rec: 开 电 视 
+
+
+utt: TVSPK000UT016
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 静 音 
+rec: 静 音 
+
+
+utt: TVSPK000UT005
+WER: 0.00 % N=5 C=5 S=0 D=0 I=0
+lab: 不 想 看 电 视 
+rec: 不 想 看 电 视 
+
+
+utt: TVSPK000UT008
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 变 大 
+rec: 音 量 变 大 
+
+
+utt: TVSPK000UT012
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 上 一 台 
+rec: 上 一 台 
+
+
+utt: TVSPK000UT038
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: USB 
+rec: USB 
+
+
+utt: TVSPK000UT003
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 关 电 视 
+rec: 关 电 视 
+
+
+utt: TVSPK000UT046
+WER: 100.00 % N=1 C=0 S=0 D=1 I=0
+lab: PRIME_VIDEO 
+rec:             
+
+
+utt: TVSPK000UT035
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: HDMI_3 
+rec: HDMI   
+
+
+utt: TVSPK000UT015
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 后 一 台 
+rec: 后 一 台 
+
+
+utt: TVSPK000UT004
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 关 闭 电 视 
+rec: 关 闭 电 视 
+
+
+utt: TVSPK000UT042
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 拨 放 电 影 
+rec: 拨 放 电 影 
+
+
+utt: TVSPK000UT045
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: NETFLIX 
+rec: NETFLIX 
+
+
+utt: TVSPK000UT028
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 右 
+rec: 右 
+
+
+utt: TVSPK000UT047
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: HBOMAX 
+rec: HBOMAX 
+
+
+utt: TVSPK000UT022
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 上 
+rec: 上 
+
+
+utt: TVSPK000UT009
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 太 大 
+rec: 声 音 太 大 
+
+
+utt: TVSPK000UT014
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 下 一 台 
+rec: 下 一 台 
+
+
+utt: TVSPK000UT041
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 节 目 资 讯 
+rec: 节 目 资 讯 
+
+
+utt: TVSPK000UT044
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 字 幕 
+rec: 字 幕 
+
+
+utt: TVSPK000UT006
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 太 小 
+rec: 声 音 太 小 
+
+
+utt: TVSPK000UT011
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 变 小 
+rec: 音 量 变 小 
+
+
+utt: TVSPK000UT043
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 暂 停 
+rec: 暂 停 
+
+
+utt: TVSPK000UT049
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: IHEART_RADIO 
+rec: TD           
+
+
+utt: TVSPK000UT024
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 下 
+rec: 下 
+
+
+utt: TVSPK000UT050
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: WATCH_FREE_PLUS 
+rec: F               
+
+
+utt: TVSPK000UT033
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: HDMI 
+rec: HDMI 
+
+
+utt: TVSPK000UT036
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 数 字 电 视 
+rec: 数 字 电 视 
+
+
+utt: TVSPK000UT030
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 取 消 
+rec: 取 消 
+
+
+utt: TVSPK000UT027
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 右 
+rec: 往 右 
+
+
+utt: TVSPK000UT007
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 加 大 
+rec: 音 量 加 大 
+
+
+utt: TVSPK000UT010
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 减 少 
+rec: 音 量 减 少 
+
+
+utt: TVSPK000UT013
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 前 一 台 
+rec: 前 一 台 
+
+
+utt: TVSPK000UT029
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 返 回 
+rec: 返 回 
+
+
+utt: TVSPK000UT039
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 讯 号 源 
+rec: 讯 号 源 
+
+
+utt: TVSPK000UT023
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 下 
+rec: 往 下 
+
+
+utt: TVSPK000UT051
+WER: 33.33 % N=3 C=2 S=0 D=1 I=0
+lab: HELLO_ 伙 计 
+rec:        伙 计 
+
+
+utt: TVSPK000UT040
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 拨 放 节 目 
+rec: 拨 放 节 目 
+
+
+utt: TVSPK000UT025
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 左 
+rec: 往 左 
+
+
+utt: TVSPK000UT048
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: PLUTO 
+rec: PLUTO 
+
+
+utt: TVSPK000UT032
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: OK 
+rec: OK 
+
+
+utt: TVSPK000UT019
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 打 开 
+rec: 声 音 打 开 
+
+
+utt: TVSPK000UT037
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 色 差 
+rec: 色 差 
+
+
+utt: TVSPK000UT002
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 想 看 电 视 
+rec: 想 看 电 视 
+
+
+utt: TVSPK000UT001
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 打 开 电 视 
+rec: 打 开 电 视 
+
+
+utt: TVSPK000UT031
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 确 认 
+rec: 确 认 
+
+
+utt: TVSPK000UT026
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 左 
+rec: 左 
+
+
+utt: TVSPK000UT017
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 关 闭 
+rec: 声 音 关 闭 
+
+
+utt: TVSPK000UT021
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 上 
+rec: 往 上 
+
+
+utt: TVSPK000UT034
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: HDMI_2 
+rec: HDMI   
+
+
+utt: TVSPK000UT018
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 取 消 静 音 
+rec: 取 消 静 音 
+
+
+utt: TVSPK000UT020
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 主 选 单 
+rec: 主 选 单 
+
+
+utt: TVSPK001UT047
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: HBOMAX 
+rec: HBOMAX 
+
+
+utt: TVSPK001UT005
+WER: 0.00 % N=5 C=5 S=0 D=0 I=0
+lab: 不 想 看 电 视 
+rec: 不 想 看 电 视 
+
+
+utt: TVSPK001UT006
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 太 小 
+rec: 声 音 太 小 
+
+
+utt: TVSPK001UT025
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 左 
+rec: 往 左 
+
+
+utt: TVSPK001UT007
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 加 大 
+rec: 音 量 加 大 
+
+
+utt: TVSPK001UT012
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 上 一 台 
+rec: 上 一 台 
+
+
+utt: TVSPK001UT018
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 取 消 静 音 
+rec: 取 消 静 音 
+
+
+utt: TVSPK001UT040
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 拨 放 节 目 
+rec: 拨 放 节 目 
+
+
+utt: TVSPK001UT024
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 下 
+rec: 下 
+
+
+utt: TVSPK001UT032
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: OK 
+rec: OK 
+
+
+utt: TVSPK001UT001
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 打 开 电 视 
+rec: 打 开 电 视 
+
+
+utt: TVSPK001UT031
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 确 认 
+rec: 确 认 
+
+
+utt: TVSPK001UT021
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 上 
+rec: 往 上 
+
+
+utt: TVSPK001UT048
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: PLUTO 
+rec: PLUTO 
+
+
+utt: TVSPK001UT020
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 主 选 单 
+rec: 主 选 单 
+
+
+utt: TVSPK001UT044
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 字 幕 
+rec: 字 幕 
+
+
+utt: TVSPK001UT037
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 色 差 
+rec: 色 差 
+
+
+utt: TVSPK001UT042
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 拨 放 电 影 
+rec: 拨 放 电 影 
+
+
+utt: TVSPK001UT016
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 静 音 
+rec: 静 音 
+
+
+utt: TVSPK001UT043
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 暂 停 
+rec: 暂 停 
+
+
+utt: TVSPK001UT023
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 下 
+rec: 往 下 
+
+
+utt: TVSPK001UT050
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: WATCH_FREE_PLUS 
+rec: F               
+
+
+utt: TVSPK001UT051
+WER: 33.33 % N=3 C=2 S=0 D=1 I=0
+lab: HELLO_ 伙 计 
+rec:        伙 计 
+
+
+utt: TVSPK001UT026
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 左 
+rec: 左 
+
+
+utt: TVSPK001UT015
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 后 一 台 
+rec: 后 一 台 
+
+
+utt: TVSPK001UT034
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: HDMI_2 
+rec: HDMI   
+
+
+utt: TVSPK001UT046
+WER: 100.00 % N=1 C=0 S=0 D=1 I=0
+lab: PRIME_VIDEO 
+rec:             
+
+
+utt: TVSPK001UT009
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 太 大 
+rec: 声 音 太 大 
+
+
+utt: TVSPK001UT045
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: NETFLIX 
+rec: NETFLIX 
+
+
+utt: TVSPK001UT000
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 开 电 视 
+rec: 开 电 视 
+
+
+utt: TVSPK001UT033
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: HDMI 
+rec: HDMI 
+
+
+utt: TVSPK001UT003
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 关 电 视 
+rec: 关 电 视 
+
+
+utt: TVSPK001UT022
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 上 
+rec: 上 
+
+
+utt: TVSPK001UT039
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 讯 号 源 
+rec: 讯 号 源 
+
+
+utt: TVSPK001UT013
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 前 一 台 
+rec: 前 一 台 
+
+
+utt: TVSPK001UT017
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 关 闭 
+rec: 声 音 关 闭 
+
+
+utt: TVSPK001UT038
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: USB 
+rec: USB 
+
+
+utt: TVSPK001UT011
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 变 小 
+rec: 音 量 变 小 
+
+
+utt: TVSPK001UT029
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 返 回 
+rec: 返 回 
+
+
+utt: TVSPK001UT010
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 减 少 
+rec: 音 量 减 少 
+
+
+utt: TVSPK001UT019
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 打 开 
+rec: 声 音 打 开 
+
+
+utt: TVSPK001UT036
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 数 字 电 视 
+rec: 数 字 电 视 
+
+
+utt: TVSPK001UT008
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 变 大 
+rec: 音 量 变 大 
+
+
+utt: TVSPK001UT030
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 取 消 
+rec: 取 消 
+
+
+utt: TVSPK001UT014
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 下 一 台 
+rec: 下 一 台 
+
+
+utt: TVSPK001UT004
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 关 闭 电 视 
+rec: 关 闭 电 视 
+
+
+utt: TVSPK001UT041
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 节 目 资 讯 
+rec: 节 目 资 讯 
+
+
+utt: TVSPK001UT049
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: IHEART_RADIO 
+rec: TD           
+
+
+utt: TVSPK001UT002
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 想 看 电 视 
+rec: 想 看 电 视 
+
+
+utt: TVSPK001UT035
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: HDMI_3 
+rec: HDMI   
+
+
+utt: TVSPK001UT028
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 右 
+rec: 右 
+
+
+utt: TVSPK001UT027
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 右 
+rec: 往 右 
+
+
+utt: TVSPK002UT001
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 打 开 电 视 
+rec: 打 开 电 视 
+
+
+utt: TVSPK002UT026
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 左 
+rec: 左 
+
+
+utt: TVSPK002UT031
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 确 认 
+rec: 确 认 
+
+
+utt: TVSPK002UT013
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 前 一 台 
+rec: 前 一 台 
+
+
+utt: TVSPK002UT008
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 变 大 
+rec: 音 量 变 大 
+
+
+utt: TVSPK002UT016
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 静 音 
+rec: 静 音 
+
+
+utt: TVSPK002UT000
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 开 电 视 
+rec: 开 电 视 
+
+
+utt: TVSPK002UT027
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 右 
+rec: 往 右 
+
+
+utt: TVSPK002UT038
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: USB 
+rec: USB 
+
+
+utt: TVSPK002UT048
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: PLUTO 
+rec: PLUTO 
+
+
+utt: TVSPK002UT025
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 左 
+rec: 往 左 
+
+
+utt: TVSPK002UT028
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 右 
+rec: 右 
+
+
+utt: TVSPK002UT005
+WER: 0.00 % N=5 C=5 S=0 D=0 I=0
+lab: 不 想 看 电 视 
+rec: 不 想 看 电 视 
+
+
+utt: TVSPK002UT003
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 关 电 视 
+rec: 关 电 视 
+
+
+utt: TVSPK002UT046
+WER: 100.00 % N=1 C=0 S=0 D=1 I=0
+lab: PRIME_VIDEO 
+rec:             
+
+
+utt: TVSPK002UT014
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 下 一 台 
+rec: 下 一 台 
+
+
+utt: TVSPK002UT018
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 取 消 静 音 
+rec: 取 消 静 音 
+
+
+utt: TVSPK002UT033
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: HDMI 
+rec: HDMI 
+
+
+utt: TVSPK002UT022
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 上 
+rec: 上 
+
+
+utt: TVSPK002UT047
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: HBOMAX 
+rec: HBOMAX 
+
+
+utt: TVSPK002UT017
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 关 闭 
+rec: 声 音 关 闭 
+
+
+utt: TVSPK002UT043
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 暂 停 
+rec: 暂 停 
+
+
+utt: TVSPK002UT030
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 取 消 
+rec: 取 消 
+
+
+utt: TVSPK002UT051
+WER: 33.33 % N=3 C=2 S=0 D=1 I=0
+lab: HELLO_ 伙 计 
+rec:        伙 计 
+
+
+utt: TVSPK002UT020
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 主 选 单 
+rec: 主 选 单 
+
+
+utt: TVSPK002UT039
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 讯 号 源 
+rec: 讯 号 源 
+
+
+utt: TVSPK002UT019
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 打 开 
+rec: 声 音 打 开 
+
+
+utt: TVSPK002UT036
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 数 字 电 视 
+rec: 数 字 电 视 
+
+
+utt: TVSPK002UT045
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: NETFLIX 
+rec: NETFLIX 
+
+
+utt: TVSPK002UT041
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 节 目 资 讯 
+rec: 节 目 资 讯 
+
+
+utt: TVSPK002UT049
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: IHEART_RADIO 
+rec: TD           
+
+
+utt: TVSPK002UT023
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 下 
+rec: 往 下 
+
+
+utt: TVSPK002UT034
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: HDMI_2 
+rec: HDMI   
+
+
+utt: TVSPK002UT002
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 想 看 电 视 
+rec: 想 看 电 视 
+
+
+utt: TVSPK002UT044
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 字 幕 
+rec: 字 幕 
+
+
+utt: TVSPK002UT042
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 拨 放 电 影 
+rec: 拨 放 电 影 
+
+
+utt: TVSPK002UT029
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 返 回 
+rec: 返 回 
+
+
+utt: TVSPK002UT009
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 太 大 
+rec: 声 音 太 大 
+
+
+utt: TVSPK002UT032
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: OK 
+rec: OK 
+
+
+utt: TVSPK002UT037
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 色 差 
+rec: 色 差 
+
+
+utt: TVSPK002UT012
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 上 一 台 
+rec: 上 一 台 
+
+
+utt: TVSPK002UT040
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 拨 放 节 目 
+rec: 拨 放 节 目 
+
+
+utt: TVSPK002UT010
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 减 少 
+rec: 音 量 减 少 
+
+
+utt: TVSPK002UT006
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 太 小 
+rec: 声 音 太 小 
+
+
+utt: TVSPK002UT015
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 后 一 台 
+rec: 后 一 台 
+
+
+utt: TVSPK002UT050
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: WATCH_FREE_PLUS 
+rec: F               
+
+
+utt: TVSPK002UT011
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 变 小 
+rec: 音 量 变 小 
+
+
+utt: TVSPK002UT007
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 加 大 
+rec: 音 量 加 大 
+
+
+utt: TVSPK002UT024
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 下 
+rec: 下 
+
+
+utt: TVSPK002UT021
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 上 
+rec: 往 上 
+
+
+utt: TVSPK002UT035
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: HDMI_3 
+rec: HDMI   
+
+
+utt: TVSPK002UT004
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 关 闭 电 视 
+rec: 关 闭 电 视 
+
+
+utt: TVSPK003UT008
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 变 大 
+rec: 音 量 变 大 
+
+
+utt: TVSPK003UT003
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 关 电 视 
+rec: 关 电 视 
+
+
+utt: TVSPK003UT034
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: HDMI_2 
+rec: HDMI   
+
+
+utt: TVSPK003UT046
+WER: 100.00 % N=1 C=0 S=0 D=1 I=0
+lab: PRIME_VIDEO 
+rec:             
+
+
+utt: TVSPK003UT029
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 返 回 
+rec: 返 回 
+
+
+utt: TVSPK003UT023
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 下 
+rec: 往 下 
+
+
+utt: TVSPK003UT051
+WER: 33.33 % N=3 C=2 S=0 D=1 I=0
+lab: HELLO_ 伙 计 
+rec:        伙 计 
+
+
+utt: TVSPK003UT030
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 取 消 
+rec: 取 消 
+
+
+utt: TVSPK003UT045
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: NETFLIX 
+rec: NETFLIX 
+
+
+utt: TVSPK003UT012
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 上 一 台 
+rec: 上 一 台 
+
+
+utt: TVSPK003UT033
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: HDMI 
+rec: HDMI 
+
+
+utt: TVSPK003UT009
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 太 大 
+rec: 声 音 太 大 
+
+
+utt: TVSPK003UT040
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 拨 放 节 目 
+rec: 拨 放 节 目 
+
+
+utt: TVSPK003UT022
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 上 
+rec: 上 
+
+
+utt: TVSPK003UT024
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 下 
+rec: 下 
+
+
+utt: TVSPK003UT035
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: HDMI_3 
+rec: HDMI   
+
+
+utt: TVSPK003UT015
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 后 一 台 
+rec: 后 一 台 
+
+
+utt: TVSPK003UT017
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 关 闭 
+rec: 声 音 关 闭 
+
+
+utt: TVSPK003UT016
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 静 音 
+rec: 静 音 
+
+
+utt: TVSPK003UT049
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: IHEART_RADIO 
+rec: TD           
+
+
+utt: TVSPK003UT001
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 打 开 电 视 
+rec: 打 开 电 视 
+
+
+utt: TVSPK003UT032
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: OK 
+rec: OK 
+
+
+utt: TVSPK003UT014
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 下 一 台 
+rec: 下 一 台 
+
+
+utt: TVSPK003UT004
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 关 闭 电 视 
+rec: 关 闭 电 视 
+
+
+utt: TVSPK003UT050
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: WATCH_FREE_PLUS 
+rec: F               
+
+
+utt: TVSPK003UT026
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 左 
+rec: 左 
+
+
+utt: TVSPK003UT011
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 变 小 
+rec: 音 量 变 小 
+
+
+utt: TVSPK003UT013
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 前 一 台 
+rec: 前 一 台 
+
+
+utt: TVSPK003UT036
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 数 字 电 视 
+rec: 数 字 电 视 
+
+
+utt: TVSPK003UT002
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 想 看 电 视 
+rec: 想 看 电 视 
+
+
+utt: TVSPK003UT019
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 打 开 
+rec: 声 音 打 开 
+
+
+utt: TVSPK003UT031
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 确 认 
+rec: 确 认 
+
+
+utt: TVSPK003UT042
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 拨 放 电 影 
+rec: 拨 放 电 影 
+
+
+utt: TVSPK003UT041
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 节 目 资 讯 
+rec: 节 目 资 讯 
+
+
+utt: TVSPK003UT028
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 右 
+rec: 右 
+
+
+utt: TVSPK003UT007
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 加 大 
+rec: 音 量 加 大 
+
+
+utt: TVSPK003UT044
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 字 幕 
+rec: 字 幕 
+
+
+utt: TVSPK003UT025
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 左 
+rec: 往 左 
+
+
+utt: TVSPK003UT047
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: HBOMAX 
+rec: HBOMAX 
+
+
+utt: TVSPK003UT027
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 右 
+rec: 往 右 
+
+
+utt: TVSPK003UT005
+WER: 0.00 % N=5 C=5 S=0 D=0 I=0
+lab: 不 想 看 电 视 
+rec: 不 想 看 电 视 
+
+
+utt: TVSPK003UT038
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: USB 
+rec: USB 
+
+
+utt: TVSPK003UT010
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 减 少 
+rec: 音 量 减 少 
+
+
+utt: TVSPK003UT018
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 取 消 静 音 
+rec: 取 消 静 音 
+
+
+utt: TVSPK003UT039
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 讯 号 源 
+rec: 讯 号 源 
+
+
+utt: TVSPK003UT006
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 太 小 
+rec: 声 音 太 小 
+
+
+utt: TVSPK003UT043
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 暂 停 
+rec: 暂 停 
+
+
+utt: TVSPK003UT021
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 上 
+rec: 往 上 
+
+
+utt: TVSPK003UT037
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 色 差 
+rec: 色 差 
+
+
+utt: TVSPK003UT020
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 主 选 单 
+rec: 主 选 单 
+
+
+utt: TVSPK003UT048
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: PLUTO 
+rec: PLUTO 
+
+
+utt: TVSPK003UT000
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 开 电 视 
+rec: 开 电 视 
+
+
+utt: TVSPK004UT022
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 上 
+rec: 上 
+
+
+utt: TVSPK004UT007
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 加 大 
+rec: 音 量 加 大 
+
+
+utt: TVSPK004UT005
+WER: 0.00 % N=5 C=5 S=0 D=0 I=0
+lab: 不 想 看 电 视 
+rec: 不 想 看 电 视 
+
+
+utt: TVSPK004UT015
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 后 一 台 
+rec: 后 一 台 
+
+
+utt: TVSPK004UT023
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 下 
+rec: 往 下 
+
+
+utt: TVSPK004UT029
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 返 回 
+rec: 返 回 
+
+
+utt: TVSPK004UT034
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: HDMI_2 
+rec: HDMI   
+
+
+utt: TVSPK004UT041
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 节 目 资 讯 
+rec: 节 目 资 讯 
+
+
+utt: TVSPK004UT039
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 讯 号 源 
+rec: 讯 号 源 
+
+
+utt: TVSPK004UT021
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 上 
+rec: 往 上 
+
+
+utt: TVSPK004UT047
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: HBOMAX 
+rec: HBOMAX 
+
+
+utt: TVSPK004UT040
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 拨 放 节 目 
+rec: 拨 放 节 目 
+
+
+utt: TVSPK004UT049
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: IHEART_RADIO 
+rec: TD           
+
+
+utt: TVSPK004UT030
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 取 消 
+rec: 取 消 
+
+
+utt: TVSPK004UT018
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 取 消 静 音 
+rec: 取 消 静 音 
+
+
+utt: TVSPK004UT003
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 关 电 视 
+rec: 关 电 视 
+
+
+utt: TVSPK004UT043
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 暂 停 
+rec: 暂 停 
+
+
+utt: TVSPK004UT016
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 静 音 
+rec: 静 音 
+
+
+utt: TVSPK004UT011
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 变 小 
+rec: 音 量 变 小 
+
+
+utt: TVSPK004UT031
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 确 认 
+rec: 确 认 
+
+
+utt: TVSPK004UT008
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 变 大 
+rec: 音 量 变 大 
+
+
+utt: TVSPK004UT051
+WER: 33.33 % N=3 C=2 S=0 D=1 I=0
+lab: HELLO_ 伙 计 
+rec:        伙 计 
+
+
+utt: TVSPK004UT036
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 数 字 电 视 
+rec: 数 字 电 视 
+
+
+utt: TVSPK004UT038
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: USB 
+rec: USB 
+
+
+utt: TVSPK004UT045
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: NETFLIX 
+rec: NETFLIX 
+
+
+utt: TVSPK004UT035
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: HDMI_3 
+rec: HDMI   
+
+
+utt: TVSPK004UT025
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 左 
+rec: 往 左 
+
+
+utt: TVSPK004UT019
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 打 开 
+rec: 声 音 打 开 
+
+
+utt: TVSPK004UT050
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: WATCH_FREE_PLUS 
+rec: F               
+
+
+utt: TVSPK004UT009
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 太 大 
+rec: 声 音 太 大 
+
+
+utt: TVSPK004UT017
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 关 闭 
+rec: 声 音 关 闭 
+
+
+utt: TVSPK004UT004
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 关 闭 电 视 
+rec: 关 闭 电 视 
+
+
+utt: TVSPK004UT046
+WER: 100.00 % N=1 C=0 S=0 D=1 I=0
+lab: PRIME_VIDEO 
+rec:             
+
+
+utt: TVSPK004UT033
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: HDMI 
+rec: HDMI 
+
+
+utt: TVSPK004UT028
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 右 
+rec: 右 
+
+
+utt: TVSPK004UT010
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 减 少 
+rec: 音 量 减 少 
+
+
+utt: TVSPK004UT044
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 字 幕 
+rec: 字 幕 
+
+
+utt: TVSPK004UT037
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 色 差 
+rec: 色 差 
+
+
+utt: TVSPK004UT026
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 左 
+rec: 左 
+
+
+utt: TVSPK004UT042
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 拨 放 电 影 
+rec: 拨 放 电 影 
+
+
+utt: TVSPK004UT024
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 下 
+rec: 下 
+
+
+utt: TVSPK004UT032
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: OK 
+rec: OK 
+
+
+utt: TVSPK004UT013
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 前 一 台 
+rec: 前 一 台 
+
+
+utt: TVSPK004UT014
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 下 一 台 
+rec: 下 一 台 
+
+
+utt: TVSPK004UT000
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 开 电 视 
+rec: 开 电 视 
+
+
+utt: TVSPK004UT027
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 右 
+rec: 往 右 
+
+
+utt: TVSPK004UT012
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 上 一 台 
+rec: 上 一 台 
+
+
+utt: TVSPK004UT048
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: PLUTO 
+rec: PLUTO 
+
+
+utt: TVSPK004UT002
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 想 看 电 视 
+rec: 想 看 电 视 
+
+
+utt: TVSPK004UT001
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 打 开 电 视 
+rec: 打 开 电 视 
+
+
+utt: TVSPK004UT006
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 太 小 
+rec: 声 音 太 小 
+
+
+utt: TVSPK004UT020
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 主 选 单 
+rec: 主 选 单 
+
+
+utt: TVSPK005UT037
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 色 差 
+rec: 色 差 
+
+
+utt: TVSPK005UT032
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: OK 
+rec: OK 
+
+
+utt: TVSPK005UT036
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 数 字 电 视 
+rec: 数 字 电 视 
+
+
+utt: TVSPK005UT051
+WER: 33.33 % N=3 C=2 S=0 D=1 I=0
+lab: HELLO_ 伙 计 
+rec:        伙 计 
+
+
+utt: TVSPK005UT003
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 关 电 视 
+rec: 关 电 视 
+
+
+utt: TVSPK005UT030
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 取 消 
+rec: 取 消 
+
+
+utt: TVSPK005UT015
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 后 一 台 
+rec: 后 一 台 
+
+
+utt: TVSPK005UT039
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 讯 号 源 
+rec: 讯 号 源 
+
+
+utt: TVSPK005UT038
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: USB 
+rec: USB 
+
+
+utt: TVSPK005UT050
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: WATCH_FREE_PLUS 
+rec: F               
+
+
+utt: TVSPK005UT005
+WER: 0.00 % N=5 C=5 S=0 D=0 I=0
+lab: 不 想 看 电 视 
+rec: 不 想 看 电 视 
+
+
+utt: TVSPK005UT047
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: HBOMAX 
+rec: HBOMAX 
+
+
+utt: TVSPK005UT013
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 前 一 台 
+rec: 前 一 台 
+
+
+utt: TVSPK005UT014
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 下 一 台 
+rec: 下 一 台 
+
+
+utt: TVSPK005UT004
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 关 闭 电 视 
+rec: 关 闭 电 视 
+
+
+utt: TVSPK005UT025
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 左 
+rec: 往 左 
+
+
+utt: TVSPK005UT022
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 上 
+rec: 上 
+
+
+utt: TVSPK005UT023
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 下 
+rec: 往 下 
+
+
+utt: TVSPK005UT027
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 右 
+rec: 往 右 
+
+
+utt: TVSPK005UT007
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 加 大 
+rec: 音 量 加 大 
+
+
+utt: TVSPK005UT033
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: HDMI 
+rec: HDMI 
+
+
+utt: TVSPK005UT002
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 想 看 电 视 
+rec: 想 看 电 视 
+
+
+utt: TVSPK005UT001
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 打 开 电 视 
+rec: 打 开 电 视 
+
+
+utt: TVSPK005UT000
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 开 电 视 
+rec: 开 电 视 
+
+
+utt: TVSPK005UT024
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 下 
+rec: 下 
+
+
+utt: TVSPK005UT043
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 暂 停 
+rec: 暂 停 
+
+
+utt: TVSPK005UT011
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 变 小 
+rec: 音 量 变 小 
+
+
+utt: TVSPK005UT021
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 上 
+rec: 往 上 
+
+
+utt: TVSPK005UT006
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 太 小 
+rec: 声 音 太 小 
+
+
+utt: TVSPK005UT026
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 左 
+rec: 左 
+
+
+utt: TVSPK005UT009
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 太 大 
+rec: 声 音 太 大 
+
+
+utt: TVSPK005UT035
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: HDMI_3 
+rec: HDMI   
+
+
+utt: TVSPK005UT017
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 关 闭 
+rec: 声 音 关 闭 
+
+
+utt: TVSPK005UT018
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 取 消 静 音 
+rec: 取 消 静 音 
+
+
+utt: TVSPK005UT040
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 拨 放 节 目 
+rec: 拨 放 节 目 
+
+
+utt: TVSPK005UT044
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 字 幕 
+rec: 字 幕 
+
+
+utt: TVSPK005UT016
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 静 音 
+rec: 静 音 
+
+
+utt: TVSPK005UT020
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 主 选 单 
+rec: 主 选 单 
+
+
+utt: TVSPK005UT012
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 上 一 台 
+rec: 上 一 台 
+
+
+utt: TVSPK005UT008
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 变 大 
+rec: 音 量 变 大 
+
+
+utt: TVSPK005UT029
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 返 回 
+rec: 返 回 
+
+
+utt: TVSPK005UT042
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 拨 放 电 影 
+rec: 拨 放 电 影 
+
+
+utt: TVSPK005UT019
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 打 开 
+rec: 声 音 打 开 
+
+
+utt: TVSPK005UT046
+WER: 100.00 % N=1 C=0 S=0 D=1 I=0
+lab: PRIME_VIDEO 
+rec:             
+
+
+utt: TVSPK005UT034
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: HDMI_2 
+rec: HDMI   
+
+
+utt: TVSPK005UT028
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 右 
+rec: 右 
+
+
+utt: TVSPK005UT010
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 减 少 
+rec: 音 量 减 少 
+
+
+utt: TVSPK005UT031
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 确 认 
+rec: 确 认 
+
+
+utt: TVSPK005UT045
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: NETFLIX 
+rec: NETFLIX 
+
+
+utt: TVSPK005UT048
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: PLUTO 
+rec: PLUTO 
+
+
+utt: TVSPK005UT049
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: IHEART_RADIO 
+rec: TD           
+
+
+utt: TVSPK005UT041
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 节 目 资 讯 
+rec: 节 目 资 讯 
+
+
+utt: TVSPK006UT015
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 后 一 台 
+rec: 后 一 台 
+
+
+utt: TVSPK006UT004
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 关 闭 电 视 
+rec: 关 闭 电 视 
+
+
+utt: TVSPK006UT008
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 变 大 
+rec: 音 量 变 大 
+
+
+utt: TVSPK006UT017
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 关 闭 
+rec: 声 音 关 闭 
+
+
+utt: TVSPK006UT048
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: PLUTO 
+rec: PLUTO 
+
+
+utt: TVSPK006UT043
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 暂 停 
+rec: 暂 停 
+
+
+utt: TVSPK006UT039
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 讯 号 源 
+rec: 讯 号 源 
+
+
+utt: TVSPK006UT046
+WER: 100.00 % N=1 C=0 S=0 D=1 I=0
+lab: PRIME_VIDEO 
+rec:             
+
+
+utt: TVSPK006UT041
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 节 目 资 讯 
+rec: 节 目 资 讯 
+
+
+utt: TVSPK006UT003
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 关 电 视 
+rec: 关 电 视 
+
+
+utt: TVSPK006UT049
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: IHEART_RADIO 
+rec: TD           
+
+
+utt: TVSPK006UT038
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: USB 
+rec: USB 
+
+
+utt: TVSPK006UT016
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 静 音 
+rec: 静 音 
+
+
+utt: TVSPK006UT002
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 想 看 电 视 
+rec: 想 看 电 视 
+
+
+utt: TVSPK006UT021
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 上 
+rec: 往 上 
+
+
+utt: TVSPK006UT001
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 打 开 电 视 
+rec: 打 开 电 视 
+
+
+utt: TVSPK006UT047
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: HBOMAX 
+rec: HBOMAX 
+
+
+utt: TVSPK006UT013
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 前 一 台 
+rec: 前 一 台 
+
+
+utt: TVSPK006UT029
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 返 回 
+rec: 返 回 
+
+
+utt: TVSPK006UT031
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 确 认 
+rec: 确 认 
+
+
+utt: TVSPK006UT030
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 取 消 
+rec: 取 消 
+
+
+utt: TVSPK006UT040
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 拨 放 节 目 
+rec: 拨 放 节 目 
+
+
+utt: TVSPK006UT014
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 下 一 台 
+rec: 下 一 台 
+
+
+utt: TVSPK006UT018
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 取 消 静 音 
+rec: 取 消 静 音 
+
+
+utt: TVSPK006UT011
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 变 小 
+rec: 音 量 变 小 
+
+
+utt: TVSPK006UT007
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 加 大 
+rec: 音 量 加 大 
+
+
+utt: TVSPK006UT022
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 上 
+rec: 上 
+
+
+utt: TVSPK006UT009
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 太 大 
+rec: 声 音 太 大 
+
+
+utt: TVSPK006UT025
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 左 
+rec: 往 左 
+
+
+utt: TVSPK006UT026
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 左 
+rec: 左 
+
+
+utt: TVSPK006UT037
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 色 差 
+rec: 色 差 
+
+
+utt: TVSPK006UT034
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: HDMI_2 
+rec: HDMI   
+
+
+utt: TVSPK006UT023
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 下 
+rec: 往 下 
+
+
+utt: TVSPK006UT044
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 字 幕 
+rec: 字 幕 
+
+
+utt: TVSPK006UT028
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 右 
+rec: 右 
+
+
+utt: TVSPK006UT036
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 数 字 电 视 
+rec: 数 字 电 视 
+
+
+utt: TVSPK006UT042
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 拨 放 电 影 
+rec: 拨 放 电 影 
+
+
+utt: TVSPK006UT032
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: OK 
+rec: OK 
+
+
+utt: TVSPK006UT024
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: 下 
+rec: 下 
+
+
+utt: TVSPK006UT027
+WER: 0.00 % N=2 C=2 S=0 D=0 I=0
+lab: 往 右 
+rec: 往 右 
+
+
+utt: TVSPK006UT045
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: NETFLIX 
+rec: NETFLIX 
+
+
+utt: TVSPK006UT033
+WER: 0.00 % N=1 C=1 S=0 D=0 I=0
+lab: HDMI 
+rec: HDMI 
+
+
+utt: TVSPK006UT035
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: HDMI_3 
+rec: HDMI   
+
+
+utt: TVSPK006UT019
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 打 开 
+rec: 声 音 打 开 
+
+
+utt: TVSPK006UT005
+WER: 0.00 % N=5 C=5 S=0 D=0 I=0
+lab: 不 想 看 电 视 
+rec: 不 想 看 电 视 
+
+
+utt: TVSPK006UT000
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 开 电 视 
+rec: 开 电 视 
+
+
+utt: TVSPK006UT012
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 上 一 台 
+rec: 上 一 台 
+
+
+utt: TVSPK006UT051
+WER: 33.33 % N=3 C=2 S=0 D=1 I=0
+lab: HELLO_ 伙 计 
+rec:        伙 计 
+
+
+utt: TVSPK006UT020
+WER: 0.00 % N=3 C=3 S=0 D=0 I=0
+lab: 主 选 单 
+rec: 主 选 单 
+
+
+utt: TVSPK006UT010
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 音 量 减 少 
+rec: 音 量 减 少 
+
+
+utt: TVSPK006UT006
+WER: 0.00 % N=4 C=4 S=0 D=0 I=0
+lab: 声 音 太 小 
+rec: 声 音 太 小 
+
+
+utt: TVSPK006UT050
+WER: 100.00 % N=1 C=0 S=1 D=0 I=0
+lab: WATCH_FREE_PLUS 
+rec: F               
+
+===========================================================================
+
+Overall -> 4.51 % N=931 C=889 S=28 D=14 I=0
+Mandarin -> 0.00 % N=847 C=847 S=0 D=0 I=0
+English -> 40.00 % N=70 C=42 S=14 D=14 I=0
+Other -> 100.00 % N=14 C=0 S=14 D=0 I=0
+
+===========================================================================
