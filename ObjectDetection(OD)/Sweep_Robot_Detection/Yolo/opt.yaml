@@ -1,0 +1,15 @@
+# ==================================================================
+# MODEL
+nc: 4 # model depth multiple
+depth_multiple: 0.33
+width_multiple: 0.28
+anchors:
+	- [30, 61, 62, 45, 59, 119]
+	- [116, 90, 156, 198, 373, 326]
+
+# ==================================================================
+
+# DATA Hyp
+obj: 1.25  # obj loss gain (scale with pixels)
+degrees: 10  # image rotation (+/- deg)
+mosaic: 0.5  # image mosaic (probability)
