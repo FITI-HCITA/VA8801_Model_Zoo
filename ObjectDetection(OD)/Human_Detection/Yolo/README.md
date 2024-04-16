@@ -10,7 +10,11 @@
 
 **Class:** Human
 
-![Human Detection](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/develop/ObjectDetection(OD)/Human_Detection/Yolo/Human_Detection-Yolo.png)
+<div align="center">
+    <a href="./">
+        <img src="./Human_Detection-Yolo.png" width="100%"/>
+    </a>
+</div>
 
 ### Network
 

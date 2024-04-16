@@ -4,13 +4,17 @@
 
 **Category:** Object Detection
 
-**Algorithm:** [Yolov5](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/develop/ObjectDetection(OD)/Human_Detection/Yolo/data_config_V3-4.yaml)
+**Algorithm:** [Yolov5](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/develop/ObjectDetection(OD)/Hand_Gestures/opt.yaml)
 
 **Dataset:** 
 
 **Class:** 'palm','fist'
 
-![Hand Gestures Detection](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/develop/ObjectDetection(OD)/Human_Detection/Yolo/Hand_Gestures.png)
+<div align="center">
+    <a href="./">
+        <img src="./Hand_Gestures.png" width="100%"/>
+    </a>
+</div>
 
 ### Network
 |      | Type  | Batch   | Shape      | Remark                                               |
