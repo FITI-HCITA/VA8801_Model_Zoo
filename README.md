@@ -3,7 +3,7 @@
   <a href="https://www.fitipower.com/" target="_blank"><img width="20%" src="https://www.fitipower.com/files/images/index/img02.webp"></a>
 </div>
 
-English | [简体中文](README_zh_CN.md)
+English | [繁體中文](README_zh_TW.md) | [简体中文](README_zh_CN.md)
 
 ## Introduction
 Welcome to VA8801 Model Zoo. We provide a series of pre-trained models for different application scenarios for you to use, with [Fitipower VA8801 SDK](https://www.fitipower.com/), you can test or inference on these models and easily deploy them to edge computing devices.
