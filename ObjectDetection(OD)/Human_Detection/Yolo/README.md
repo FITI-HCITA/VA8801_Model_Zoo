@@ -4,6 +4,8 @@
 
 **Category:** Object Detection
 
+**TrainingProgram:** [Yolov5](https://github.com/FITI-HCITA/yolov5/tree/hcita/human_detect)
+
 **Algorithm:** [Yolov5](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/develop/ObjectDetection(OD)/Human_Detection/Yolo/opt.yaml)
 
 **Dataset:** COCO-human,surveillance,cctv-fitipower

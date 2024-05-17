@@ -4,6 +4,8 @@
 
 **Category:** Object Detection
 
+**TrainingProgram:** [Yolov5](https://github.com/FITI-HCITA/yolov5/tree/hcita/hand)
+
 **Algorithm:** [Yolov5](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/tree/main/ObjectDetection(OD)/Human_Detection/Yolo/data_config_V3-4.yaml)
 
 **Dataset:** 
