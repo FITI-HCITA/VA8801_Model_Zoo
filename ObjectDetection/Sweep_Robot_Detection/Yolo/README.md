@@ -4,6 +4,8 @@
 
 **Category:** Object Detection
 
+**TrainingProgram:** [Yolov5](https://github.com/FITI-HCITA/yolov5/tree/ROT_IRAI_VA8801)
+
 **Algorithm:** [Yolov5](./opt.yaml)
 
 **Dataset:** Fitipower IR Cam Sweeping Robot Dataset 
