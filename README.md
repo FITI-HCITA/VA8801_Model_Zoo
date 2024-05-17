@@ -16,16 +16,10 @@ VA8801 Model Zoo focuses on providing models trained on VA8801 optimized neural 
 ## Application Scenarios
 
 Currently, VA8801 Model Zoo provides pre-trained models for the following application scenarios:
-<br>AudioDenoise - 語音去躁 
 <br>AudioSoundEvents - 異常聲音檢測
-<br>AudioSpeechRecognition - 語音識別
 <br>ClassicalModels - 經典模型
-<br>DualVisionDepth - 雙目深度
-<br>FaceOrientation - 人臉方位
-<br>FaceRecognition - 人臉識別
 <br>KeyWordSpotting - 關鍵詞
 <br>ObjectDetection - 物件偵測
-<br>SpeakerVertification - 語者識別
 
 
 ## Quickly Start

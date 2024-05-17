@@ -17,16 +17,10 @@ VA8801 Model Zoo 专注于提供在 VA8801 优化的神经网络上训练得到�
 
 ## 应用场景
 目前，VA8801 Model Zoo 提供如下应用场景的预训练模型:
-<br>AudioDenoise - 語音去躁 
 <br>AudioSoundEvents - 異常聲音檢測
-<br>AudioSpeechRecognition - 語音識別
 <br>ClassicalModels - 經典模型
-<br>DualVisionDepth - 雙目深度
-<br>FaceOrientation - 人臉方位
-<br>FaceRecognition - 人臉識別
 <br>KeyWordSpotting - 關鍵詞
-<br>ObjectDetection - 物件偵測
-<br>SpeakerVertification - 語者識別                                                     
+<br>ObjectDetection - 物件偵測                                                  
 
 如果您需要特定场景下特定数据集的预训练模型，欢迎向我们[提交 Issues]。
 
