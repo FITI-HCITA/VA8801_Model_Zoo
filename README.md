@@ -11,7 +11,7 @@ Welcome to VA8801 Model Zoo. We provide a series of pre-trained models for diffe
 VA8801 Model Zoo focuses on providing models trained on VA8801 optimized neural networks, which are tailored to real-world application scenarios and enable faster and more accurate inference on embedded devices.
 
 <br>Standard model format is INT8 tflite.
-<br>Using Fitipower Tanyuang Compiler for VA8801
+<br>Using Fitipower Tengen Compiler for VA8801
 
 ## Application Scenarios
 
