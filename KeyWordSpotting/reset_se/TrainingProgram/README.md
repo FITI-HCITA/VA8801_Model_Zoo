@@ -1,6 +1,6 @@
 ## Training program
 
-### Requirement
+### 1. Requirement
 
 *Recommendation: Use [anaconda](https://www.anaconda.com/download/success) to manage enviroments*
 
@@ -22,7 +22,7 @@ Install requirement for quantization
 pip install -r requirement_for_quant.txt
 ```
 
-### Data preparation
+### 2. Data preparation
 Prepare 3 txt files, tr_data.txt, val_data.txt and noise_file.txt.
 tr_data.txt ands val_data.txt contain training data and validation data respectively. Format of these two files are:  
 
@@ -35,7 +35,7 @@ Note: There is a blank separating "path_to_file_n" and "label_of_file_n".
 
 noise_file.txt contains the paths of noise files using for data augmentation.
 
-### Model training
+### 3. Model training
 
 ```bash
 python train.py tr=path_to_tr_data.txt cv=path_to_val.txt augment.noise.path=path_to_noise_file.txt ckpt_name=CKPT_NAME
@@ -43,13 +43,13 @@ python train.py tr=path_to_tr_data.txt cv=path_to_val.txt augment.noise.path=pat
 
 The pytorch model will be saved under the path ./ckpt/CKPT_NAME/best.pt
 
-### Model quantization
+### 4. Model quantization
 
 ```bash
 cd quant
 ```
 
-#### Steps of quantization
+#### 4-1. Steps of quantization
 
 1. Convert pytorch model to onnx model
 
