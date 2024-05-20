@@ -1,0 +1,52 @@
+device: cuda
+num_workers: 8
+
+ckpt_dir: ./ckpt
+ckpt_name: None
+ckpt: None
+
+resuming: False
+ckpt_path: None
+
+sr: 8000
+num_label: 12
+
+
+max_t: 2
+min_t: 0.1
+
+fft:
+  frame_t: 0.025
+  stride_t: 0.01
+  window: hann_window
+  n_mel: 24
+
+normalize: true
+
+augment:
+  bandmask: 0.2
+  noise:
+    add: true
+    path: none
+    freq: 0.8
+  min_val: 0.1
+
+
+lr: 1e-3
+weight_decay: 0.0001
+epochs: 50
+min_lr: 1e-6
+lr_patience: 10
+
+batch_size: 32
+patience: 10
+dry_run: false
+ites_dry_run: 5
+verbose: false
+clip_norm: 5
+
+
+tr: none
+cv: none
+
+
