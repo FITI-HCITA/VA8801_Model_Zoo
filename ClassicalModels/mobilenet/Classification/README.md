@@ -16,6 +16,12 @@
 
 The model is a MobileNetV2 model trained on the Opensource Horses or Humans Classification dataset.
 
+### Supported VA8801 Version
+
+| Format | VA8801 Shuttle  |
+| --- | --- |
+| TFLite - INT8 | ✅ |
+
 ### Network
 
 |  | Type | Batch | Shape | Remark |
