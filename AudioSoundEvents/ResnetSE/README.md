@@ -1,4 +1,4 @@
-# Keyword Spotting
+# Audio Sound Events
 
 **Version:** 1.001.000
 
