@@ -1,4 +1,0 @@
-0_backgroundnoise
-1_babycry
-2_glassbreak
-3_gunshot

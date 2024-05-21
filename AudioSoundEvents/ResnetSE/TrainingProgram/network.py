@@ -1,7 +1,7 @@
 import torch.nn as nn
 import torch.nn.functional as F
-from macls.models.pooling import AttentiveStatsPool, TemporalAveragePooling
-from macls.models.pooling import SelfAttentivePooling, TemporalStatisticsPooling
+from pooling import AttentiveStatsPool, TemporalAveragePooling
+from pooling import SelfAttentivePooling, TemporalStatisticsPooling
 
 
 class SEBottleneck(nn.Module):
@@ -65,10 +65,10 @@ class SELayer(nn.Module):
         return x * y
 
 
-class ResNetSE(nn.Module):
+class SED(nn.Module):
     def __init__(self, num_class, input_size, layers=[2, 2, 4, 2], num_filters=[4, 8, 16, 32], embd_dim=64,
-                 pooling_type="ASP"):
-        super(ResNetSE, self).__init__()
+                 pooling_type="TAP"):
+        super(KWS, self).__init__()
         self.inplanes = num_filters[0]
         self.emb_size = embd_dim
         self.conv1 = nn.Conv2d(1, num_filters[0], kernel_size=3, stride=(1, 1), padding=1, bias=False)
@@ -149,3 +149,11 @@ class ResNetSE(nn.Module):
         x = self.bn3(x)
         out = self.fc(x)
         return out
+
+if __name__ == "__main__":
+    import torch
+    net = SED(4, pooling_type='TAP', input_size=24)
+    net.eval()
+    x = torch.randn(1, 192, 24).float()
+    y = net(x)
+    print(y.shape)

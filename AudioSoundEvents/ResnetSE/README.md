@@ -1,26 +1,26 @@
 # Keyword Spotting
 
-**Version:** 1.001.001
+**Version:** 1.001.000
 
 **TrainingProgram:** [TrainingProgram]()
 
-**Category:** Keyword Spotting
+**Category:** Audio Sound Events
 
 **Algorithm:** [ResnetSE](https://github.com/yeyupiaoling/AudioClassification-Pytorch)
 
 **Dataset:** 
 
-**Class:** 'Hi fiti','貨物訊息', 'barcode辨識', '物件辨識'
+**Class:** 'Background noise','Baby crying', 'Glass breaking', 'Gun shot'
 
 
 ### Network
 |      | Type            | Batch   | Shape      | Remark                                               |
 |:---- |:----------------|:-------:|:-----------|:-----------------------------------------------------|
-|Input | mel spectrogram |   1     | [192,40]   | number of frames of input should be 192              |
-|Output| logits          |   1     | [1,16]     | The output is a 1x16 tensor.                         |
+|Input | mel spectrogram |   1     | [192,24]   | number of frames of input should be 192              |
+|Output| logits          |   1     | [1,4]      | The output is a 1x4 tensor.                          |
 
 ### Benchmark
 
 | Backend      | Precision(%) | MFlops   | Params(K) | Inference(ms) |       Download                                                                                                                                | Author   |
 |:------------:|:-------------|:---------|:----------|:-------------:|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-|  TFLite-int8 |    99.82     |    20.8  |    62     |       224       |      [link(shuttle version)](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/develop/KeyWordSpotting/resnet_se/KWS_1_001_001.tflite)     | Fitipower|
+|  TFLite-int8 |    97.80     |    20.8  |    62     |       224       |      [link(shuttle version)](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/develop/AudioSoundEvents/ResnetSE/AudioSoundEvent_1_001_000.tflite)     | Fitipower|
