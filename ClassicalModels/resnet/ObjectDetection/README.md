@@ -16,6 +16,13 @@
     </a>
 </div>
 
+### Supported VA8801 Version
+
+| Format | VA8801 Shuttle  |
+| --- | --- |
+| TFLite - INT8 | ✅ |
+
+
 ### Network
 
 |	    |  Type	| Batch	| Shape        | Remark                                                           |
