@@ -2,7 +2,7 @@
 
 **Version:** 1.001.001
 
-**TrainingProgram:** [TrainingProgram]()
+**TrainingProgram:** [TrainingProgram](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/KeyWordSpotting/reset_se/TrainingProgram)
 
 **Category:** Keyword Spotting
 
