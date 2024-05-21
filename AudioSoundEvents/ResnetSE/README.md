@@ -2,7 +2,7 @@
 
 **Version:** 1.001.000
 
-**TrainingProgram:** [TrainingProgram]()
+**TrainingProgram:** [TrainingProgram](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/AudioSoundEvents/ResnetSE/TrainingProgram)
 
 **Category:** Audio Sound Events
 
