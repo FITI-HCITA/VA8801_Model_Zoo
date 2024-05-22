@@ -4,7 +4,7 @@
 
 **Category:** Classification
 
-**TrainingProgram:** [MobileNetV2]() 
+**TrainingProgram:** [MobileNetV2](https://github.com/FITI-HCITA/mobilenetv2) 
 
 **Algorithm:** [MobileNetV2](./opt.yaml)
 
