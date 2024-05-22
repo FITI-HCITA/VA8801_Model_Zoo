@@ -23,4 +23,4 @@
 
 | Backend      | Precision(%) | MFlops   | Params(K) | Inference(ms) |       Download                                                                                                                                | Author   |
 |:------------:|:-------------|:---------|:----------|:-------------:|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-|  TFLite-int8 |    97.80     |    20.8  |    62     |       224       |      [link(shuttle version)](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/develop/AudioSoundEvents/ResnetSE/AudioSoundEvent_1_001_000.tflite)     | Fitipower|
+|  TFLite-int8 |    97.80     |    20.8  |    62     |       224       |      [link(shuttle version)](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/AudioSoundEvents/ResnetSE/AudioSoundEvent_1_001_000.tflite)     | Fitipower|

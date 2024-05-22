@@ -23,4 +23,4 @@
 
 | Backend      | Precision(%) | MFlops   | Params(K) | Inference(ms) |       Download                                                                                                                                | Author   |
 |:------------:|:-------------|:---------|:----------|:-------------:|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-|  TFLite-int8 |    99.82     |    20.8  |    62     |       224       |      [link(shuttle version)](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/develop/KeyWordSpotting/resnet_se/KWS_1_001_001.tflite)     | Fitipower|
+|  TFLite-int8 |    99.82     |    20.8  |    62     |       224       |      [link(shuttle version)](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/KeyWordSpotting/reset_se/KWS_1_001_001.tflite)     | Fitipower|
