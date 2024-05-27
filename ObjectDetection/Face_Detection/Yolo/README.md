@@ -6,7 +6,7 @@
 
 **TrainingProgram:** [Yolov5](https://github.com/FITI-HCITA/yolov5/tree/hcita/face_detect)
 
-**Algorithm:** [Yolov5](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/develop/ObjectDetection/Face_Detection/Yolo/opt.yaml)
+**Algorithm:** [Yolov5](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/main/ObjectDetection/Face_Detection/Yolo/opt.yaml)
 
 **Dataset:** COCO-human
 
@@ -37,7 +37,7 @@
 
 | Backend      | Precision(%) | Recall(%) | GFlops   | Params(M) | Inference(ms) |       Download                                                                                                                                | Author   |
 |:------------:|:-------------|:----------|:---------|:----------|:-------------:|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-|  TFLite-int8 |    94.50     |    96.60  |    4.0   |    1.8    |       -       |      [link](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/develop/ObjectDetection/Face_Detection/Yolo/Face_Det_3_001_001.tflite)  | Fitipower|
+|  TFLite-int8 |    94.50     |    96.60  |    4.0   |    1.8    |       -       |      [link](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/main/ObjectDetection/Face_Detection/Yolo/Face_Det_3_001_001.tflite)  | Fitipower|
 
 ***Table Notes:***
 
