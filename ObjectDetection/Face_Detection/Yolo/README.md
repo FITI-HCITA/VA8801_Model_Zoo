@@ -27,9 +27,9 @@
 
 ### Network
 
-|	    |  Type	| Batch	| Shape        | Remark                                                           |
+|	|  Type	| Batch	| Shape        | Remark                                                           |
 |:------|:------|:------|:-------------|:-----------------------------------------------------------------|
-| Input | image |   1   | [320,320,3]  | The input image should be resized to 96x96x1                     |
+| Input | image |   1   | [320,320,3]  | The input image should be resized to 320x320x3                   |
 | Output| bbox  |   1   | [1500,6]     | The output is a 1500x6 tensor, 1500 is the number of candidates  |
 
 
