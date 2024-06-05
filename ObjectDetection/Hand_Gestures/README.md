@@ -4,9 +4,9 @@
 
 **Category:** Object Detection
 
-**TrainingProgram:** [Yolov5](https://github.com/FITI-HCITA/yolov5/tree/hcita/hand)
+**TrainingProgram:** [Yolov5](https://github.com/FITI-HCITA/yolov5/tree/hand_gesture_VA8801)
 
-**Algorithm:** [Yolov5](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/develop/ObjectDetection(OD)/Hand_Gestures/opt.yaml)
+**Algorithm:** [Yolov5](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Hand_Gestures/opt.yaml)
 
 **Dataset:** 
 
@@ -35,4 +35,4 @@
 
 | Backend      | Precision(%) | Recall(%) | GFlops   | Params(M) | Inference(ms) |       Download                                                                                                                                | Author   |
 |:------------:|:-------------|:----------|:---------|:----------|:-------------:|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-|  TFLite-int8 |    97.60     |    95.80  |    4.0   |    1.8    |       160       |      [link](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/develop/ObjectDetection(OD)/Hand_Gestures/Hand_Gestures_3_001_001.tflite)     | Fitipower|
+|  TFLite-int8 |    97.60     |    95.80  |    4.0   |    1.8    |       160       |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Hand_Gestures/Hand_Gestures_3_001_001.tflite)     | Fitipower|
