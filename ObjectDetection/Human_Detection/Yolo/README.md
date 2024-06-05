@@ -4,9 +4,9 @@
 
 **Category:** Object Detection
 
-**TrainingProgram:** [Yolov5](https://github.com/FITI-HCITA/yolov5/tree/hcita/human_detect)
+**TrainingProgram:** [Yolov5](https://github.com/FITI-HCITA/yolov5/tree/human_detect_VA8801)
 
-**Algorithm:** [Yolov5](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/develop/ObjectDetection(OD)/Human_Detection/Yolo/opt.yaml)
+**Algorithm:** [Yolov5](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Human_Detection/Yolo/opt.yaml)
 
 **Dataset:** COCO-human,surveillance,cctv-fitipower
 
@@ -14,7 +14,7 @@
 
 <div align="center">
     <a href="./">
-        <img src="./Human_Detection-Yolo.png" width="100%"/>
+        <img src="./Human_Detection-Yolo.png" width="50%"/>
     </a>
 </div>
 
@@ -37,7 +37,7 @@
 
 | Backend      | Precision(%) | Recall(%) | GFlops   | Params(K) | Inference(ms) | Used Ram(KB) |     Download                                                                                                                                | Author   |
 |:------------:|:-------------|:----------|:---------|:----------|:-------------:|:------------:|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-|  TFLite-int8 |    95.30     |    90.20  |    0.5   |    120    |       34       | 176.74 |      [link](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/develop/ObjectDetection(OD)/Human_Detection/Yolo/HUMAN_DET_6_001_001.tflite)  | Fitipower|
+|  TFLite-int8 |    95.30     |    90.20  |    0.5   |    120    |       34       | 176.74 |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Human_Detection/Yolo/HUMAN_DET_6_001_001.tflite)  | Fitipower|
 
 ***Table Notes:***
 
