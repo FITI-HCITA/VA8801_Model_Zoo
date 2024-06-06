@@ -34,7 +34,7 @@ The model is a YOLOv8 v8.1.0 pose model trained on the Opensource COCO128-pose d
 | Backend | mAP50-pose | Flops(B) | Params(M) | Inference(ms) | Download | Author |
 | --- | --- | --- | --- | --- | --- | --- |
 | pytorch | 80.1 | 9.2 | 3.3 | - | [link](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n-pose.pt) | ultralytics |
-| TFLite - INT8 | - | - | 3.3 | - | [link](./yolov8n-pose_full_integer_quant_320.tflite) | ultralytics |
+| TFLite - INT8 | - | - | 3.3 | 429 | [link](./yolov8n-pose_full_integer_quant_320.tflite) | ultralytics |
 
 ***Table Notes:***
 
