@@ -4,9 +4,9 @@
 
 **Category:** Object Detection
 
-**TrainingProgram:** [ResNet](https://github.com/FITI-HCITA/yolov5/tree/hcita/esl_detect)
+**TrainingProgram:** [ResNet](https://github.com/FITI-HCITA/yolov5/tree/Resnet_VA8801)
 
-**Algorithm:** [ResNet](https://fp-gitlab/hcita/tinyml/yolov5/-/blob/hcita/ResNet/models/resnet50.yaml)
+**Algorithm:** [ResNet](https://github.com/FITI-HCITA/yolov5/blob/Resnet_VA8801/models/resnet50.yaml)
 
 **Dataset:** ESL
 
@@ -37,7 +37,7 @@
 
 | Backend      | Precision(%) | Recall(%) | GFlops   | Params(K) | Inference(ms) |   Download                                                                                                                                     | Author   |
 |:------------:|:-------------|:----------|:---------|:----------|:-------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-|  TFLite-int8 |    96.30     |    91.50  |    ---   |    769    |     951       | [link](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/main/ClassicalModels/resnet/ObjectDetection/ResNet_2.001.001.tflite)             | Fitipower|
+|  TFLite-int8 |    96.30     |    91.50  |    ---   |    769    |     951       | [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ClassicalModels/resnet/ObjectDetection/ResNet_2.001.001.tflite)             | Fitipower|
 
 ***Table Notes:***
 
