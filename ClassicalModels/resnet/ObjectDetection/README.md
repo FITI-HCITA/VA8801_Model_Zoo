@@ -37,7 +37,7 @@
 
 | Backend      | Precision(%) | Recall(%) | GFlops   | Params(K) | Inference(ms) |   Download                                                                                                                                     | Author   |
 |:------------:|:-------------|:----------|:---------|:----------|:-------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-|  TFLite-int8 |    96.30     |    91.50  |    ---   |    769    |     951       | [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ClassicalModels/resnet/ObjectDetection/ResNet_2.001.001.tflite)             | Fitipower|
+|  TFLite-int8 |    96.30     |    91.50  |    ---   |    769    |     -         | [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ClassicalModels/resnet/ObjectDetection/ResNet_2.001.001.tflite)             | Fitipower|
 
 ***Table Notes:***
 
