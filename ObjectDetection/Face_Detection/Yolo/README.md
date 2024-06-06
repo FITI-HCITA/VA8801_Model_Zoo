@@ -37,7 +37,7 @@
 
 | Backend      | Precision(%) | Recall(%) | GFlops   | Params(M) | Inference(ms) | Used Ram(MB) |      Download                                                                                                                                | Author   |
 |:------------:|:-------------|:----------|:--------:|:---------:|:-------------:|:------------:|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-|  TFLite-int8 |    94.50     |    96.60  |    4.0   |    1.8    |       492       | 2.89 |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Face_Detection/Yolo/Face_Det_3_001_001.tflite)  | Fitipower|
+|  TFLite-int8 |    94.50     |    96.60  |    4.0   |    1.8    |       48        | 2.89 |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Face_Detection/Yolo/Face_Det_3_001_001.tflite)  | Fitipower|
 
 ***Table Notes:***
 
