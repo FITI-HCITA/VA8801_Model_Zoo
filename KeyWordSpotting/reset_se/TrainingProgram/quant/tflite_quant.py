@@ -15,7 +15,7 @@ class Dataloader():
     def __getitem__(self, index):
         return self.data[index]
 
-def convert_to_tflite_quant(pb_folder_path, data_path, cal_dataset_folder_path=None, train_data=None, train_labels=None, mode=0):
+def convert_to_tflite_quant(pb_folder_path, data_path, tflite_path, cal_dataset_folder_path=None, train_data=None, train_labels=None, mode=0):
     def representative_dataset():
         cal_dataset = Dataloader(data_path)
         valid_cnt = 0
@@ -68,8 +68,6 @@ def convert_to_tflite_quant(pb_folder_path, data_path, cal_dataset_folder_path=N
     print(tflite_quant_model.get_input_details())
     print(tflite_quant_model.get_output_details())
 
-    #tflite_path = os.path.join(pb_folder_path,os.path.basename(pb_folder_path)) + '.tflite'
-    tflite_path = sys.argv[3]
     with open(tflite_path, 'wb') as f:
         f.write(tflite_model_content)
 
@@ -84,8 +82,11 @@ def get_args():
     return args
 
 if __name__ == '__main__':
-    print('hello')
+    if len(sys.argv) < 4:
+        print(f"Usage: {__file__} [path to tf saved_model] [data path] [path for output tflite mode]")
+        sys.exit(1)
     pb_folder_path = sys.argv[1]
     data_path = sys.argv[2]
+    tflite_path = sys.argv[3]
     mode = 1 
-    convert_to_tflite_quant(pb_folder_path=pb_folder_path, data_path=data_path, mode=mode)
+    convert_to_tflite_quant(pb_folder_path=pb_folder_path, data_path=data_path, tflite_path=tflite_path, mode=mode)

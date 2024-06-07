@@ -8,9 +8,9 @@
 
 **Algorithm:** [ResnetSE](https://github.com/yeyupiaoling/AudioClassification-Pytorch)
 
-**Dataset:** 
+**Dataset:** [Sample_Dataset](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/KeyWordSpotting/reset_se/TrainingProgram/dataset)
 
-**Class:** 'Hi fiti','貨物訊息', 'barcode辨識', '物件辨識'
+**Class:** `Hi fiti`, `貨物訊息`, `barcode辨識`, `物件辨識`
 
 
 ### Network
@@ -21,6 +21,13 @@
 
 ### Benchmark
 
-| Backend      | Precision(%) | MFlops   | Params(K) | Inference(ms) |       Download                                                                                                                                | Author   |
-|:------------:|:-------------|:---------|:----------|:-------------:|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-|  TFLite-int8 |    99.82     |    20.8  |    62     |       224       |      [link(shuttle version)](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/KeyWordSpotting/reset_se/KWS_1_001_001.tflite)     | Fitipower|
+| Backend | Precision(%) | Top-1(%) | MFlops | Params(K) | Inference     | Download | Author |
+|:--------|:-------------|:---------|:-------|:----------|:--------------|:---------|:-------|
+|  Pytorch     |    FLOAT32   |   99.82  | 20.8 |    62     |       -       |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/KeyWordSpotting/reset_se/TrainingProgram/KWS_1_001_001.pt) | Fitipower|
+|  TFLite      |    INT8      |    99.82 |  -   |    62     |       224     |      [link(shuttle version)](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/KeyWordSpotting/reset_se/KWS_1_001_002.tflite)  | Fitipower|
+***Tabel Notes:***
+- ***Backend:** The deep learning framework used to infer the model.*
+- ***Precision:** The numerical precision used for training the model.*
+- ***Inference(ms):** The inference time of the model in milliseconds.*
+- ***Link:** The link to the model.*
+- ***Author:** The author of the model.*

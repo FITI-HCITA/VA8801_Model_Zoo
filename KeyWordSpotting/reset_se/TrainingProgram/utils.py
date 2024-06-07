@@ -29,29 +29,12 @@ class Trainer(nn.Module):
         self.dry_run = args.dry_run
         self.ites_dry_run = args.ites_dry_run
         self.verbose = args.verbose
-        self.resuming = args.resuming
         start_epoch = 0
-        if args.resuming:
-            print("{} Resume training from {}".format(time.ctime(), args.ckpt_path))
-            ckpt = torch.load(args.ckpt_path)
-            self.net.cpu()
-            self.net.load_state_dict(ckpt['model'])
-            self.net.to(args.device)
-            self.optimizer.load_state_dict(ckpt['optimizer'])
-            #
-            if args.lr < self.optimizer.param_groups[0]['lr']:
-                print("change lr of optimizer state {} to {}".format(self.optimizer.param_groups[0]['lr'], args.lr))
-                self.optimizer.param_groups[0]['lr'] = args.lr
-            #
-            self.scheduler.load_state_dict(ckpt['scheduler'])
-            self.best_loss = ckpt['best_loss']
-            self.prev_loss = ckpt['prev_loss']
-            start_epoch = ckpt['epoch']+1
         assert start_epoch < args.epochs
         self.epochs = range(start_epoch, args.epochs)
 
     def train(self):
-        #
+        # trigger_times for early stopping
         trigger_times = 0
         print("{} Start training".format(time.ctime()))
         for epoch in self.epochs:
@@ -78,7 +61,8 @@ class Trainer(nn.Module):
                 'val_loss': val_loss,
                 }, path)
             self.net.to(self.args.device)
-            #
+
+            # saving the best state_dict
             if val_loss < self.best_loss:
                 path = self.ckpt/"best.pt"
                 print('loss improved from {:.5f} to {:.5f}, saving model to {}'.format(self.prev_loss, val_loss, path))
@@ -102,9 +86,6 @@ class Trainer(nn.Module):
                 break
             self.prev_loss = val_loss
         print("{} End training".format(time.ctime()))
-        #
-    def eval_metrics(self):
-        return None
 
     def run_one_epoch(self, epoch, is_training=True):
         loader = self.tr_loader if is_training else self.cv_loader
@@ -136,7 +117,6 @@ class Trainer(nn.Module):
             if is_training:
                 self.optimizer.zero_grad()
                 loss.backward()
-                nn.utils.clip_grad_norm_(parameters=self.net.parameters(), max_norm=self.args.clip_norm, norm_type=2)
                 self.optimizer.step()
                 
             if self.args.verbose:

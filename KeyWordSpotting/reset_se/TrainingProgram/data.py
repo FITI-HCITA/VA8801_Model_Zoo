@@ -28,47 +28,33 @@ class AudioData(Dataset):
         labels = set()
 
         self.list = []
-        print('file list reading...')
-        with open(src, 'r') as f:
-            lst = f.readlines()
-        for l in lst:
-            path, label = l.rstrip().split(' ')
-            try:
-                info = ta.info(path)
-                t = info.num_frames / info.sample_rate
-                if t <= max_t and t >= min_t:
-                    sample = dict(key=str(d.stem), wav=str(w), txt=i)
-                    self.list.append(sample)
-                    labels.add(i)
-            except Exception as e:
-                print(path, e)
+        print('file parsing...')
+        ds = []
+        for d in Path(src).iterdir():
+            wavs = list(d.glob("**/*.wav"))
+            if len(wavs) > 0:
+                ds.append(d)
+        ds.sort()
+        for idx, d in enumerate(ds):
+            wavs = list(d.glob("**/*.wav"))
+            label = idx
+            cnt = 0
+            for path in wavs:
+                try:
+                    info = ta.info(path)
+                    t = info.num_frames / info.sample_rate
+                    if t <= max_t and t >= min_t:
+                        sample = dict(key=str(d.stem), wav=str(path), txt=label)
+                        self.list.append(sample)
+                        labels.add(label)
+                        cnt += 1
+                except Exception as e:
+                    print(path, e)
+            print(f'label name: {d.name}, label index: {idx}, # of files belonging this label: {cnt}')
         assert len(labels) == config.num_label, f'{labels}, {len(labels)} vs {config.num_label}'
         #
-        resampler_8k = ta.transforms.Resample(orig_freq=8000, new_freq=self.sr)
-        resampler_16k = ta.transforms.Resample(orig_freq=16000, new_freq=self.sr)
-        resampler_32k = ta.transforms.Resample(orig_freq=32000, new_freq=self.sr)
-        resampler_48k = ta.transforms.Resample(orig_freq=48000, new_freq=self.sr)
-        resampler_441k = ta.transforms.Resample(orig_freq=44100, new_freq=self.sr)
-        resampler_22k = ta.transforms.Resample(orig_freq=22050, new_freq=self.sr)
-        self.resampler = {
-                8000: resampler_8k,
-                16000: resampler_16k,
-                32000: resampler_32k,
-                48000: resampler_48k,
-                44100: resampler_441k,
-                22050: resampler_22k,
-                }
-                            
-        #
-        win_l = int(self.sr * config.fft.frame_t)
-        hop_l = int(self.sr * config.fft.stride_t)
-
-        n_fft = 2** math.ceil( math.log2(win_l))
-
         self.add_noise = config.augment.noise.add
-        with open(config.augment.noise.path, 'r') as f:
-            lines = f.readlines()
-        self.noises = [l.rstrip() for l in lines]
+        self.noises = list( Path(config.augment.noise.path).glob("**/*.wav"))
 
         self.noise_freq = config.augment.noise.freq
 
@@ -77,9 +63,7 @@ class AudioData(Dataset):
         if s.size(0) > 1:
             s = s.mean(dim=0, keepdim=True)
         if sr != self.sr:
-            if sr not in self.resampler:
-                self.resampler[sr] = ta.transforms.Resample(orig_freq=sr, new_freq=self.sr)
-            s = self.resampler[sr](s)
+            s = ta.functional.resample(s, orig_freq=sr, new_freq=self.sr)
         return s
 
     def Meler(self, s):
@@ -134,7 +118,7 @@ class AudioData(Dataset):
 
         speed = np.random.choice([0.9, 1.0, 1.1])
         if speed != 1:
-            s, _ = ta.sox_effects.apply_effects_tensor(s, sr,[
+            s, _ = ta.sox_effects.apply_effects_tensor(s, self.sr,[
                 ['speed', str(speed)],
                 ['rate', str(self.sr)],
                 ])

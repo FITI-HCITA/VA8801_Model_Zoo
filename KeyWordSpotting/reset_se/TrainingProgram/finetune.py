@@ -15,6 +15,7 @@ from tools import LossWriter
 from utils import Trainer
 import json
 
+NUM_LABEL=16
 
 def collate_fn(sample):
     '''
@@ -36,29 +37,34 @@ def collate_fn(sample):
 
 @hydra.main(version_base=None, config_path='conf', config_name='config')
 def main(args):
-    print("pid: ", os.getpid())
-    print("input args: ", sys.argv)
-    #print("args: ", args)
     args.ckpt = Path(args.ckpt_dir) / args.ckpt_name
-    #
-    net = KWS(args.num_label, args.fft.n_mel, pooling_type='TAP')
+    # Load pretrain Neural network
+    net = KWS(NUM_LABEL, args.fft.n_mel, pooling_type='TAP')
+    net.load_state_dict(torch.load(args.pretrain.ckpt, map_location='cpu')['model'])
     num_params = sum(p.numel() for p in net.parameters() if p.requires_grad)
     print(f"# of NN parameters: {num_params}")
 
+    # freeze the model
+    for param in net.parameters():
+        param.requires_grad = False
+    # Re-build the last layer
+    net.fc = nn.Linear(64, args.num_label)
+
     net.to(args.device)
 
-    # optimizer
+    # optimizer & scheduler
     optimizer = optim.Adam(net.parameters(), lr=args.lr, weight_decay=args.weight_decay)
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(
             optimizer, mode='min', factor=0.1, patience=args.lr_patience, min_lr=args.min_lr, threshold=0.01,)
 
 
-    
+    # build dataset object for training and validation
     print("training data processing")
     tr_data = AudioData(args.tr, args, args.dry_run)
     print("cross-validation data processing")
     cv_data = AudioData(args.cv, args, args.dry_run, is_tr=False)
-    #
+    
+    # build dataloader
     tr_loader = DataLoader(tr_data, batch_size=args.batch_size, shuffle=True, num_workers=args.num_workers, pin_memory=True, drop_last=False,
             collate_fn=collate_fn)
     cv_loader = DataLoader(cv_data, batch_size=args.batch_size, shuffle=False, num_workers=args.num_workers, pin_memory=True, drop_last=False,
@@ -70,13 +76,13 @@ def main(args):
             }
 
     criterion = nn.CrossEntropyLoss()
-
+    
+    # build LossWriter to record loss and accuracy during training
     logdir = Path(args.ckpt)/'log'
     logdir.mkdir(parents=True, exist_ok=True)
     writer = LossWriter(logdir)
-
-    #
-
+    
+    # finetune the model 
     trainer = Trainer(net, criterion, loader, optimizer, scheduler, writer, args)
     trainer.train()
 

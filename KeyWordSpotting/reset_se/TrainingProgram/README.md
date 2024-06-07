@@ -23,25 +23,45 @@ pip install -r requirement_for_quant.txt
 ```
 
 ### 2. Data preparation
-Prepare 3 txt files, tr_data.txt, val_data.txt and noise_file.txt.
-tr_data.txt ands val_data.txt contain training data and validation data respectively. Format of these two files are:  
+You can finetune the model with sample data. If you want to use your own data, please follow the 
+For every label, create two directories under ./dataset/tr and ./dataset/cv put your training data and validation data  under these two directories respectively.
+If you want to add more background noise data, put under ./dataset/noise.
 
-    path_to_file_1 label_of_file_1
-    path_to_file_2 label_of_file_2
-    ...
-    path_to_file_n label_of_file_n
-
-Note: There is a blank separating "path_to_file_n" and "label_of_file_n".
-
-noise_file.txt contains the paths of noise files using for data augmentation.
-
-### 3. Model training
+the directory tree:
 
 ```bash
-python train.py tr=path_to_tr_data.txt cv=path_to_val.txt augment.noise.path=path_to_noise_file.txt ckpt_name=CKPT_NAME
+./dataset
+├── cv
+│   ├── label_0
+│   ├── ...
+├── noise
+│   ├── noise_1.wav
+│   ├── ...
+└── tr
+    ├── label_0
+    │   ├── file_1.wav
+    │   ├── file_2.wav
+    │   ├── ...
+    │   └── file_n.wav
+    ├── ...
+    └── label_n
+```
+
+Note that all data you add should use the extension of wav.
+
+### 3. Model Fine-tuning
+
+```bash
+python finetune.py ckpt_name=CKPT_NAME
 ```
 
 The pytorch model will be saved under the path ./ckpt/CKPT_NAME/best.pt
+
+If You want to use the GPU to accelerate the training process, please run:
+
+```bash
+python finetune.py ckpt_name=CKPT_NAME device=cuda
+```
 
 ### 4. Model quantization
 
@@ -60,13 +80,13 @@ python export_onnx.py --ckpt PATH_TO_PYTORCH_PT_FILE -o PATH_TO_ONNX_MODEL
 2. Convert onnx model to tensorflow model
 
 ```bash
-tf2onnx -i PATH_TO_ONNX_MODEL -o PATH_TO_TF_MODEL -osd
+tf2onnx -i PATH_TO_ONNX_MODEL -o PATH_TO_TF_MODEL(directory) -osd
 ```
 
 3. Generate Data for calibaration of tflite qunatization
 
 ```bash
-python generate_data_for_tf_quant.py SRC_FOLDER PATH_TO_OUTPUT_DATA sample_rate num_mel_bins
+python generate_data_for_tf_quant.py PATH_TO_CALIBRATION_DATA(.npy) sample_rate num_mel_bins
 ```
 
 SRC_FOLDER: path to the folder that contains wav files for calibration
@@ -75,5 +95,5 @@ PATH_TO_OUTPUT_DATA: path for saving output data(.npy)
 4. Convert tensorflow model to tflite model
 
 ```bash
-python tflite_qunatization.py PATH_TO_TF_MODEL PATH_TO_OUTPUT_DATA PATH_TO_TFLITE_MODEL
+python tflite_qunat.py PATH_TO_TF_MODEL(directory) PATH_TO_CALIBRATION_DATA(.npy) PATH_TO_TFLITE_MODEL(.tflite)
 ```
