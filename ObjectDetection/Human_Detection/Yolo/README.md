@@ -19,7 +19,7 @@
 </div>
 <div align="center">
     <a href="./">
-        <img src="./Human_Detection-Yoloi_320.png" width="50%"/>
+        <img src="./Human_Detection-Yolo_320.png" width="50%"/>
     </a>
 </div>
 
@@ -44,9 +44,10 @@
 
 ### Benchmark
 
-| Backend      | Precision(%) | Recall(%) | GFlops   | Params(K) | Inference(ms) | Used Ram(KB) |     Download                                                                                                                                | Author   |
-|:------------:|:-------------|:----------|:---------|:----------|:-------------:|:------------:|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-|  TFLite-int8 |    95.30     |    90.20  |    0.5   |    120    |       34       | 176.74 |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Human_Detection/Yolo/HUMAN_DET_6_001_001.tflite)  | Fitipower|
+|Application| Backend      | Precision(%) | Recall(%) | GFlops   | Params(K) | Inference(ms) | Used Ram(KB) |     Download                                                                                                                                | Author   |
+|:---------:|:------------:|:-------------|:----------|:---------|:----------|:-------------:|:------------:|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------|
+|LowPower   |  TFLite-int8 |    95.30     |    90.20  |    0.5   |    120    |       34       | 176.74 |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Human_Detection/Yolo/HUMAN_DET_6_001_001.tflite)  | Fitipower|
+|Normal     |  TFLite-int8 |    97.50     |    99.10  |    4.0   |    1.8    |       48        | 2.89 |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Human_Detection/Yolo/HUMAN_DET_7_002_002.tflite)  | Fitipower|
 
 ***Table Notes:***
 
