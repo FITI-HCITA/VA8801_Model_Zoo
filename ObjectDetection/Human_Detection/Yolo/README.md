@@ -1,6 +1,6 @@
 # Human Detection - Yolo
 
-**Version:** 6.001.001
+**Version:** 6.001.001 / 7.002.002
 
 **Category:** Object Detection
 
@@ -17,6 +17,11 @@
         <img src="./Human_Detection-Yolo.png" width="50%"/>
     </a>
 </div>
+<div align="center">
+    <a href="./">
+        <img src="./Human_Detection-Yoloi_320.png" width="50%"/>
+    </a>
+</div>
 
 ### Supported VA8801 Version
 
@@ -27,11 +32,15 @@
 
 ### Network
 
-|	    |  Type	| Batch	| Shape      | Remark                                                         |
-|:------|:------|:------|:-----------|:---------------------------------------------------------------|
-| Input | image |   1   | [96,96,1]  | The input image should be resized to 96x96x1                   |
-| Output| bbox  |   1   | [567,6]    | The output is a 576x6 tensor, 576 is the number of candidates  |
+|LowPower|  Type	| Batch	| Shape      | Remark                                                         |
+|:------ |:------|:------|:-----------|:---------------------------------------------------------------|
+| Input  | image |   1   | [96,96,1]  | The input image should be resized to 96x96x1                   |
+| Output | bbox  |   1   | [567,6]    | The output is a 576x6 tensor, 576 is the number of candidates  |
 
+|Normal  |  Type	| Batch	| Shape      | Remark                                                         |
+|:------ |:------|:------|:-----------|:---------------------------------------------------------------|
+| Input  | image |   1   | [320,320,3]  | The input image should be resized to 320x320x3                   |
+| Output | bbox  |   1   | [1500,6]    | The output is a 1500x6 tensor, 1500 is the number of candidates  |
 
 ### Benchmark
 
