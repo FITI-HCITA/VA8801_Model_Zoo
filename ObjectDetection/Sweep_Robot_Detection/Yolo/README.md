@@ -25,9 +25,9 @@ The model is a YOLOv5 model trained on the GC0308 IR CAM Sweeping Robot Object D
 
 ### Benchmark
 
-| Backend | Precision(%) | Recall(%) | Flops(M) | Params(M) | Inference(ms) | Download | Author |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| TFLite - INT8 | 98 | 94 | - | 2,234,398 | - | [link](./VA8801_ROTBOT_1.002.002-int8.tflite) | Fitipower |
+| Backend | Precision(%) | Recall(%) | Flops(M) | Params(M) | Inference(ms) | Used Ram(MB) | Download | Author |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| TFLite - INT8 | 98 | 94 | - | 2,234,398 | 460 | 3.12 | [link](./VA8801_ROTBOT_1.002.002-int8.tflite) | Fitipower |
 
 ***Table Notes:***
 

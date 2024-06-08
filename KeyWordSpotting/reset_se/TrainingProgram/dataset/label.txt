@@ -1,0 +1,4 @@
+0: background_noise
+1: hi-fiti
+2: merchandise_info
+3: barcode_detect
