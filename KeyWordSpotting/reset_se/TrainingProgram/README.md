@@ -23,8 +23,8 @@ pip install -r requirement_for_quant.txt
 ```
 
 ### 2. Data preparation
-You can finetune the model with sample data. If you want to use your own data, please follow the 
-For every label, create two directories under ./dataset/tr and ./dataset/cv put your training data and validation data  under these two directories respectively.
+You can finetune the model with sample data. If you want to use your own data, please read the following steps.
+For every label, create two directories under ./dataset/tr and ./dataset/cv and put your training data and validation data under these two directories respectively.
 If you want to add more background noise data, put under ./dataset/noise.
 
 the directory tree:
@@ -55,7 +55,7 @@ Note that all data you add should use the extension of wav.
 python finetune.py ckpt_name=CKPT_NAME
 ```
 
-The pytorch model will be saved under the path ./ckpt/CKPT_NAME/best.pt
+The pytorch model(.pt) will be saved under the path ./ckpt/CKPT_NAME/best.pt
 
 If You want to use the GPU to accelerate the training process, please run:
 
@@ -86,11 +86,8 @@ tf2onnx -i PATH_TO_ONNX_MODEL -o PATH_TO_TF_MODEL(directory) -osd
 3. Generate Data for calibaration of tflite qunatization
 
 ```bash
-python generate_data_for_tf_quant.py PATH_TO_CALIBRATION_DATA(.npy) sample_rate num_mel_bins
+python generate_data_for_tf_quant.py PATH_FOR_SAVING_CALIBRATION_DATA(.npy) sample_rate num_mel_bins
 ```
-
-SRC_FOLDER: path to the folder that contains wav files for calibration
-PATH_TO_OUTPUT_DATA: path for saving output data(.npy)
 
 4. Convert tensorflow model to tflite model
 

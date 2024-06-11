@@ -25,22 +25,6 @@ def convert_to_tflite_quant(pb_folder_path, data_path, tflite_path, cal_dataset_
             input_data = np.expand_dims(input_data, axis=0)
             input_data = np.transpose(input_data, (0,2,1))
             yield [input_data]
-            #if input_data.shape >= torch.Size([1,160,24]):
-            #    input_data = input_data[:, :192, :].cpu().numpy()
-            #    print(input_data.shape)
-            #    if input_data.shape != torch.Size([1,192,24]):
-            #        padding = [(0, max(torch.Size([1,192,24])[i] - input_data.shape[i], 0)) for i in range(len(torch.Size([1,192,24])))]
-            #        input_data = np.pad(input_data, padding, 'constant', constant_values=(0,))
-            #    #np.save('/home/blakelu/8K_model/resnet_se_avgpool_D24/' + os.path.basename(cal_dataset.wav_paths[idx]) + '.npy', input_data.transpose(0, 2, 1))
-            #    valid_cnt += 1
-            #    if valid_cnt % 100 == 0:
-            #        i = 0
-            #        #print(f'valid_cnt: {valid_cnt}')
-            #    #print(input_data)
-            #    #input_data = np.transpose(input_data, (0, 2, 1))
-            #    yield [input_data]
-            #print(f'valid_cnt: {valid_cnt}')
-    #representative_dataset = Dataloader()
             
     converter = tf.lite.TFLiteConverter.from_saved_model(pb_folder_path)
 

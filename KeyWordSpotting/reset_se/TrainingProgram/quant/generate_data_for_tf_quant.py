@@ -10,13 +10,13 @@ import torchaudio.compliance.kaldi as kaldi
 
 #SR = 16000
 
-if len(sys.argv) < 4:
-    print(f"Usage: {__file__} [path to save out data(*.npy)] [sr] [n_mel]")
+if len(sys.argv) < 2:
+    print(f"Usage: {__file__} [path to save out data(*.npy)]")
     sys.exit(1)
 src = Path('../dataset/calibration')
 out = sys.argv[1]
-SR = int(sys.argv[2])
-n_mel = int(sys.argv[3])
+SR = 8000
+n_mel = 40
 
 mels = []
 wavs = list(src.glob('**/*.wav'))
@@ -30,7 +30,7 @@ for w in wavs:
             s, frame_length=25, frame_shift=10,
              num_mel_bins=n_mel, sample_frequency=SR)
     mel = mel - mel.mean(dim=0, keepdims=True) # mel: [T, n_mel]
-    # F should be 192
+    # T should be 192
     if mel.size(0) > 192:
         mel = mel[:192]
     mels.append(mel)
