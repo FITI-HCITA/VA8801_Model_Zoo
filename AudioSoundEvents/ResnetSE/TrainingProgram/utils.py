@@ -24,30 +24,12 @@ class Trainer(nn.Module):
         self.writer = writer
         self.ckpt = Path(args.ckpt)
         self.args = args
-        #self.patience = args.patience
         self.best_loss = np.inf
         self.prev_loss = np.inf
         self.dry_run = args.dry_run
         self.ites_dry_run = args.ites_dry_run
         self.verbose = args.verbose
-        self.resuming = args.resuming
         start_epoch = 0
-        if args.resuming:
-            print("{} Resume training from {}".format(time.ctime(), args.ckpt_path))
-            ckpt = torch.load(args.ckpt_path)
-            self.net.cpu()
-            self.net.load_state_dict(ckpt['model'])
-            self.net.to(args.device)
-            self.optimizer.load_state_dict(ckpt['optimizer'])
-            #
-            if args.lr < self.optimizer.param_groups[0]['lr']:
-                print("change lr of optimizer state {} to {}".format(self.optimizer.param_groups[0]['lr'], args.lr))
-                self.optimizer.param_groups[0]['lr'] = args.lr
-            #
-            self.scheduler.load_state_dict(ckpt['scheduler'])
-            self.best_loss = ckpt['best_loss']
-            self.prev_loss = ckpt['prev_loss']
-            start_epoch = ckpt['epoch']+1
         assert start_epoch < args.epochs
         self.epochs = range(start_epoch, args.epochs)
 

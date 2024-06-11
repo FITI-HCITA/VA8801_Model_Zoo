@@ -15,9 +15,6 @@ import random
 import torchaudio.compliance.kaldi as kaldi
 
 
-'''
-mel
-'''
 
 class AudioData(Dataset):
     def __init__(self, src, config, dry_run=False, is_tr=True):
@@ -33,68 +30,36 @@ class AudioData(Dataset):
         labels = set()
 
         self.list = []
-        print('file list reading...')
-        #
-        with open(src, 'r') as fin:
-            ls = fin.readlines()
-        random.shuffle(ls)
-        for l in tqdm(ls):
-            obj = json.loads(l.rstrip())
-            # {path: , label: }
-            path = obj['path']
-            label = obj['label']
-            try:
-                info = ta.info(path)
-                t = info.num_frames / info.sample_rate
-                if t < min_t and is_tr:
-                    continue
-                '''
-                wav: path
-                key: id
-                duration: t
-                txt: label
-                '''
-                tmp = dict(wav=path, key=Path(path).stem, duration=t, txt=label)
-                self.list.append(tmp)
-                labels.add(label)
-                if dry_run:
-                    if len(self.list) >= 500:
-                        break
-            except Exception as e:
-                print(f"error: {e}, path: {path}")
-        print('# of data: ', len(self.list))
-        print('labels: ', labels)
+        print('file reading...')
+        #####
+        ds = []
+        for d in Path(src).iterdir():
+            wavs = list(d.glob("**/*.wav"))
+            if len(wavs) > 0:
+                ds.append(d)
+        ds.sort()
+        for idx, d in enumerate(ds):
+            wavs = list(d.glob("**/*.wav"))
+            label = idx
+            cnt = 0
+            for path in wavs:
+                try:
+                    info = ta.info(path)
+                    t = info.num_frames / info.sample_rate
+                    if t < min_t and is_tr:
+                        continue
+                    tmp = dict(wav=path, key=Path(path).stem, duration=t, txt=label)
+                    self.list.append(tmp)
+                    labels.add(label)
+                    cnt += 1
+                except Exception as e:
+                    print(path, e)
+            print(f'label name: {d.name}, label index: {idx}, # of files belonging this label: {cnt}')
         assert len(labels) == config.num_label, f'{labels}, {len(labels)} vs {config.num_label}'
         #
-        resampler_8k = ta.transforms.Resample(orig_freq=8000, new_freq=self.sr)
-        resampler_16k = ta.transforms.Resample(orig_freq=16000, new_freq=self.sr)
-        resampler_32k = ta.transforms.Resample(orig_freq=32000, new_freq=self.sr)
-        resampler_48k = ta.transforms.Resample(orig_freq=48000, new_freq=self.sr)
-        resampler_441k = ta.transforms.Resample(orig_freq=44100, new_freq=self.sr)
-        resampler_22k = ta.transforms.Resample(orig_freq=22050, new_freq=self.sr)
-        self.resampler = {
-                8000: resampler_8k,
-                16000: resampler_16k,
-                32000: resampler_32k,
-                48000: resampler_48k,
-                44100: resampler_441k,
-                22050: resampler_22k,
-                }
-                            
-        #
         print('load noise...')
-        with open(config.augment.noise.path, 'r') as f:
-            ls = f.readlines()
         self.noise_freq = config.augment.noise.freq
-        self.noise_list = []
-        for l in tqdm(ls):
-            path = l.rstrip()
-            try:
-                info = ta.info(path)
-                self.noise_list.append(path)
-            except:
-                pass
-
+        self.noise_list = list(Path(config.augment.noise.path).glob("**/*.wav"))
 
     def noise_perturb(self, s):
         if np.random.uniform(0, 1) > self.noise_freq:
@@ -104,9 +69,7 @@ class AudioData(Dataset):
         noise, sr = ta.load(noise_path)
         # resample
         if sr != self.sr:
-            if sr not in self.resampler:
-                self.resampler[sr] = ta.transforms.Resample(orig_freq=sr, new_freq=self.sr)
-            noise = self.resampler[sr](noise)
+            noise = ta.functional.resample(noise, orig_freq=sr, new_freq=self.sr)
         # sample snr
         snr = np.random.uniform(10, 50)
         # crop or pad
@@ -143,9 +106,7 @@ class AudioData(Dataset):
             s = s.mean(dim=0, keepdim=True)
         # resample
         if sr != self.sr:
-            if sr not in self.resampler:
-                self.resampler[sr] = ta.transforms.Resample(orig_freq=sr, new_freq=self.sr)
-            s = self.resampler[sr](s)
+            s = ta.functional.resample(s, orig_freq=sr, new_freq=self.sr)
 
         # augment: [speed, add noise]
         if self.is_tr:

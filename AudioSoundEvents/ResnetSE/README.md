@@ -10,7 +10,7 @@
 
 **Dataset:** 
 
-**Class:** 'Background noise','Baby crying', 'Glass breaking', 'Gun shot'
+**Class:** `Background noise`,`Baby crying`, `Glass breaking`, `Gun shot`
 
 
 ### Network
@@ -21,6 +21,7 @@
 
 ### Benchmark
 
-| Backend      | Precision(%) | MFlops   | Params(K) | Inference(ms) |       Download                                                                                                                                | Author   |
-|:------------:|:-------------|:---------|:----------|:-------------:|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-|  TFLite-int8 |    97.80     |    20.8  |    62     |       224       |      [link(shuttle version)](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/AudioSoundEvents/ResnetSE/AudioSoundEvent_1_001_000.tflite)     | Fitipower|
+| Backend | Precision | Top-1(%) | MFlops | Params(K) | Inference | Download | Author |
+|:-------:|:----------|:---------|:-------|:---------:|:----------|:---------|:-------|
+| Pytorch |  FLOAT32  |    97.80 |  20.8  |    62     |       224 | [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/AudioSoundEvents/ResnetSE/AudioSoundEvent_1_001_000.tflite) | Fitipower |
+|  TFLite |  FLOAT32  |    97.80 |   -    |    62     |       224  | [link(shuttle version)](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/AudioSoundEvents/ResnetSE/AudioSoundEvent_1_001_000.tflite) | Fitipower |

@@ -1,12 +1,12 @@
-device: cuda
+device: cpu
 num_workers: 8
 
 ckpt_dir: ./ckpt
 ckpt_name: None
 ckpt: None
 
-resuming: False
-ckpt_path: None
+pretrain:
+  ckpt: AudioSoundEvent_1_001_000.pt
 
 sr: 8000
 num_label: 4
@@ -25,18 +25,15 @@ augment:
     time_mask_width: [0, 10]
   noise:
     add: true
-    path: None
+    path: ./dataset/noise
     freq: 0.8
   min_val: 0.1
 
 
 lr: 1e-3
 weight_decay: 1e-6
-epochs: 200
-min_lr: 1e-5
-max_lr: 0.001
+epochs: 20
 lr_patience: 10
-warmup_epoch: 5
 
 batch_size: 32
 patience: 10
@@ -44,5 +41,5 @@ dry_run: false
 ites_dry_run: 5
 verbose: false
 
-tr: None
-cv: None
+tr: ./dataset/tr
+cv: ./dataset/cv
