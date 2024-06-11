@@ -10,32 +10,23 @@ import torchaudio.compliance.kaldi as kaldi
 import json
 from tqdm import tqdm
 
-n_mels = 24
 n_frames = 192
 
-if len(sys.argv) < 5:
-    print(f"Usage: {__file__} [src] [out path] [label out path] [sr]")
+if len(sys.argv) < 2:
+    print(f"Usage: {__file__} [out path]")
     sys.exit(1)
 
-src = Path(sys.argv[1])
-out = sys.argv[2]
-label_out = sys.argv[3]
-SR = int(sys.argv[4])
+src = Path('../dataset/calibration')
+out = sys.argv[1]
+SR = 8000
+n_mels = 24
 
 mels = []
-labels = []
 
-with open(src, 'r') as f:
-    lists = f.readlines()
+wavs = list(src.glob("**/*.wav"))
 
-print(len(lists))
 
-for line in tqdm(lists):
-    obj = json.loads(line.rstrip())
-    path = obj['path']
-    label = obj['label']
-    #
-    labels.append(label)
+for path in tqdm(wavs):
     #
     s, sr = ta.load(path)
     if sr != SR:
@@ -50,10 +41,6 @@ for line in tqdm(lists):
 mels = pad_sequence(mels, batch_first=True)
 l = n_frames  - mels.size(1)
 mels = torch.nn.functional.pad(mels,(0,0,0,l))
-#
 mels = mels.numpy()
 print('mels shape: ', mels.shape)
 np.save(out, mels)
-#
-labels= np.array(labels)
-np.save(label_out,labels)
