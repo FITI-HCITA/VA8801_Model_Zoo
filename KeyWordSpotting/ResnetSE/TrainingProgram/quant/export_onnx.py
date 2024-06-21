@@ -14,7 +14,7 @@ if __name__ == "__main__":
                         required=True,
                         help='output onnx model')
     parser.add_argument('--ckpt', type=str, required=True, help='checkpoint model')
-    parser.add_argument('-n', '--n_mel', type=int, default=40, help='# of mel bins') 
+    parser.add_argument('-n', '--n_mel', type=int, default=24, help='# of mel bins') 
     args = parser.parse_args()
 
     model = KWS(3, args.n_mel, pooling_type='TAP')
