@@ -5,6 +5,13 @@
 *Recommendation: Use [anaconda](https://www.anaconda.com/download/success) to manage enviroments*
 * Python 3.9
 
+Install environment
+
+```bash
+conda create -n kws python=3.9
+conda activate kws
+```
+
 Install Pytorch
 
 ```bash
