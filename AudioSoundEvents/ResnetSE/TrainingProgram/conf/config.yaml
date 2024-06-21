@@ -32,7 +32,7 @@ augment:
 
 lr: 1e-3
 weight_decay: 1e-6
-epochs: 20
+epochs: 10
 lr_patience: 10
 
 batch_size: 32
