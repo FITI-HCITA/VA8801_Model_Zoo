@@ -8,18 +8,20 @@ from torch.nn.utils.rnn import pad_sequence
 import numpy as np
 import torchaudio.compliance.kaldi as kaldi
 
-#SR = 16000
 
 if len(sys.argv) < 2:
     print(f"Usage: {__file__} [path to save out data(*.npy)]")
     sys.exit(1)
-src = Path('../dataset/calibration')
+src_tr = Path('../dataset/tr')
+src_cv = Path('../dataset/cv')
 out = sys.argv[1]
 SR = 8000
-n_mel = 40
+n_mel = 24
 
 mels = []
-wavs = list(src.glob('**/*.wav'))
+wavs = []
+wavs.extend(src_tr.glob('**/*.wav'))
+wavs.extend(src_cv.glob('**/*.wav'))
 print("# of files: ", len(wavs))
 
 for w in wavs:

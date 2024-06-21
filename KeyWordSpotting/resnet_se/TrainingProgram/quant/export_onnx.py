@@ -10,31 +10,26 @@ import onnxruntime as ort
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='export to onnx model')
-    #parser.add_argument('--config', type=str, required=True, help='config file')
     parser.add_argument('--onnx_model', '-o', 
                         required=True,
                         help='output onnx model')
     parser.add_argument('--ckpt', type=str, required=True, help='checkpoint model')
-    parser.add_argument('-n', '--n_mel', type=int, default=40, help='# of mel bins') 
+    parser.add_argument('-n', '--n_mel', type=int, default=24, help='# of mel bins') 
     args = parser.parse_args()
 
-    model = KWS(4, args.n_mel, pooling_type='TAP')
+    model = KWS(3, args.n_mel, pooling_type='TAP')
     
     pt = torch.load(args.ckpt, map_location='cpu')['model']
     model.load_state_dict(pt)
     model.eval()
     model.cpu()
     
-    #inp = torch.randn(1, 160, 24)
     inp = torch.randn(1, 192, args.n_mel)
     dummy_input = inp
 
     torch.onnx.export(model, inp, args.onnx_model,
                       input_names=['input'],
                       output_names=['output'],
-                      #dynamic_axes={
-                      #    'input': {1:'T'},
-                      #    },
                       opset_version=12,
                       verbose=False,
                       )
