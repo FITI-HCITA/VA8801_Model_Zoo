@@ -9,6 +9,10 @@ Install environment
 
 ```bash
 conda create -n AC python=3.9
+```
+
+Activate environment
+```bash
 conda activate AC
 ```
 

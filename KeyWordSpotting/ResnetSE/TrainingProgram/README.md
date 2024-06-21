@@ -9,6 +9,10 @@ Install environment
 
 ```bash
 conda create -n kws python=3.9
+```
+
+Activate environment
+```bash
 conda activate kws
 ```
 
