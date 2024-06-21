@@ -3,6 +3,7 @@
 ### 1. Requirement
 
 *Recommendation: Use [anaconda](https://www.anaconda.com/download/success) to manage enviroments*
+* Python 3.12
 
 Install Pytorch
 

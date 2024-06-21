@@ -25,6 +25,7 @@
 |:--------|:-------------|:---------|:-------|:----------|:--------------|:---------|:-------|
 |  Pytorch     |    FLOAT32   |   99.82  | 20.8 |    62     |       -       |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/KeyWordSpotting/reset_se/TrainingProgram/KWS_1_001_001.pt) | Fitipower|
 |  TFLite      |    INT8      |    99.82 |  -   |    62     |       224     |      [link(shuttle version)](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/KeyWordSpotting/reset_se/KWS_1_001_002.tflite)  | Fitipower|
+
 ***Tabel Notes:***
 - ***Backend:** The deep learning framework used to infer the model.*
 - ***Precision:** The numerical precision used for training the model.*
