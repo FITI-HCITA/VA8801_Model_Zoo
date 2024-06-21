@@ -16,14 +16,16 @@ if len(sys.argv) < 2:
     print(f"Usage: {__file__} [out path]")
     sys.exit(1)
 
-src = Path('../dataset/calibration')
+src_tr = Path('../dataset/tr')
+src_cv = Path('../dataset/cv')
 out = sys.argv[1]
 SR = 8000
 n_mels = 24
 
 mels = []
-
-wavs = list(src.glob("**/*.wav"))
+wavs = []
+wavs.extend(src_tr.glob("**/*.wav"))
+wavs.extend(src_cv.glob("**/*.wav"))
 
 
 for path in tqdm(wavs):

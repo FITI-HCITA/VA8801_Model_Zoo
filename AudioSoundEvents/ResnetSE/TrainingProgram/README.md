@@ -2,7 +2,15 @@
 
 ### 1. Requirement
 
+* Python: 3.9
 *Recommendation: Use [anaconda](https://www.anaconda.com/download/success) to manage enviroments*
+
+Install environment
+
+```bash
+conda create -n AC python=3.9
+conda activate AC
+```
 
 Install Pytorch
 
@@ -10,16 +18,10 @@ Install Pytorch
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 
-Install requirement for training
+Install requirements
 
 ```bash
-pip install -r requirement_for_training.txt
-```
-
-Install requirement for quantization
-
-```bash
-pip install -r requirement_for_quant.txt
+pip install -r requirements.txt
 ```
 
 ### 2. Data preparation
@@ -52,15 +54,15 @@ Note that all data you add should use the extension of wav.
 ### 3. Model Fine-tuning
 
 ```bash
-python finetune.py ckpt_name=CKPT_NAME
+python finetune.py ckpt_name=AC
 ```
 
-The pytorch model(.pt) will be saved under the path ./ckpt/CKPT_NAME/best.pt
+The pytorch model(.pt) will be saved under the path ./ckpt/AC/best.pt
 
 If You want to use the GPU to accelerate the training process, please run:
 
 ```bash
-python finetune.py ckpt_name=CKPT_NAME device=cuda
+python finetune.py ckpt_name=AC device=cuda
 ```
 
 ### 4. Model quantization
@@ -74,23 +76,26 @@ cd quant
 1. Convert pytorch model to onnx model
 
 ```bash
-python export_onnx.py --ckpt PATH_TO_PYTORCH_PT_FILE -o PATH_TO_ONNX_MODEL
+python export_onnx.py --ckpt ../ckpt/AC/best.pt -o ./ac.onnx
 ```
 
 2. Convert onnx model to tensorflow model
 
 ```bash
-tf2onnx -i PATH_TO_ONNX_MODEL -o PATH_TO_TF_MODEL -osd
+onnx2tf -i ./ac.onnx -o ./saved_model -osd -n
 ```
 
 3. Generate Data for calibaration of tflite qunatization
 
 ```bash
-python generate_data_for_tf_quant.py PATH_TO_OUTPUT_DATA(.npy) sample_rate num_mel_bins
+python generate_data_for_tf_quant.py data.npy
 ```
 
 4. Convert tensorflow model to tflite model
 
 ```bash
-python tflite_qunat.py PATH_TO_TF_MODEL PATH_TO_OUTPUT_DATA(.npy) PATH_TO_TFLITE_MODEL
+python tflite_quant.py ./saved_model ./data.npy ac.tflite
 ```
+
+The generated tflite model will be under the path:
+    TrainingProgram/quant/ac.tflite
