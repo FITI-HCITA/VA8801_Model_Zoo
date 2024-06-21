@@ -28,6 +28,10 @@ Install requirements
 pip install -r requirements.txt
 ```
 
+```bash
+sudo apt install libsox-dev
+```
+
 ### 2. Data preparation
 You can finetune the model with sample data. If you want to use your own data, please read the following steps.
 For every label, create two directories under ./dataset/tr and ./dataset/cv and put your training data and validation data under these two directories respectively.
