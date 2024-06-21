@@ -5,7 +5,6 @@ cffi==1.16.0
 coloredlogs==15.0.1
 decorator==5.1.1
 executing==2.0.1
-filelock @ file:///work/perseverance-python-buildout/croot/filelock_1701733993137/work
 flatbuffers==24.3.25
 fsspec==2024.3.1
 humanfriendly==10.0
