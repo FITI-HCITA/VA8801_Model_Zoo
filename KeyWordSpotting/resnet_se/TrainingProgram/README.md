@@ -96,3 +96,6 @@ python generate_data_for_tf_quant.py ./data.npy
 ```bash
 python tflite_quant.py ./saved_model ./data.npy kws.tflite
 ```
+
+The generated tflite model will be under the path:
+    TrainingProgram/quant/kws.tflite.
