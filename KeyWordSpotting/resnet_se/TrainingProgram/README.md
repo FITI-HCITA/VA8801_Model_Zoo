@@ -94,5 +94,5 @@ python generate_data_for_tf_quant.py ./data.npy
 4. Convert tensorflow model to tflite model
 
 ```bash
-python tflite_qunat.py ./saved_model ./data.npy kws.tflite
+python tflite_quant.py ./saved_model ./data.npy kws.tflite
 ```

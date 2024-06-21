@@ -49,8 +49,8 @@ def convert_to_tflite_quant(pb_folder_path, data_path, tflite_path, cal_dataset_
     tflite_model_content = converter.convert()
     tflite_quant_model = tf.lite.Interpreter(model_content=tflite_model_content)
     tflite_quant_model.allocate_tensors()
-    print(tflite_quant_model.get_input_details())
-    print(tflite_quant_model.get_output_details())
+    #print(tflite_quant_model.get_input_details())
+    #print(tflite_quant_model.get_output_details())
 
     with open(tflite_path, 'wb') as f:
         f.write(tflite_model_content)

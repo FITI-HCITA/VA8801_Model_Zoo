@@ -16,7 +16,7 @@ src_tr = Path('../dataset/tr')
 src_cv = Path('../dataset/cv')
 out = sys.argv[1]
 SR = 8000
-n_mel = 24
+n_mel = 40
 
 mels = []
 wavs = []

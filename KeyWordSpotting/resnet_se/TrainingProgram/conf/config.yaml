@@ -18,7 +18,7 @@ min_t: 0.1
 fft:
   frame_t: 0.025
   stride_t: 0.01
-  n_mel: 24
+  n_mel: 40
 
 normalize: true
 
