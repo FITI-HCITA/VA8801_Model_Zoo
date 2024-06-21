@@ -102,4 +102,4 @@ python tflite_quant.py ./saved_model ./data.npy ac.tflite
 ```
 
 The generated tflite model will be under the path:
-    TrainingProgram/quant/ac.tflite
+    `TrainingProgram/quant/ac.tflite`

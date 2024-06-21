@@ -102,4 +102,4 @@ python tflite_quant.py ./saved_model ./data.npy kws.tflite
 ```
 
 The generated tflite model will be under the path:
-    TrainingProgram/quant/kws.tflite.
+    `TrainingProgram/quant/kws.tflite.`

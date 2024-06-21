@@ -25,6 +25,7 @@
 |:-------:|:----------|:---------|:-------|:---------:|:----------|:---------|:-------|
 | Pytorch |  FLOAT32  |    97.80 |  20.8  |    62     |           | [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/AudioSoundEvents/ResnetSE/TrainingProgram/AudioSoundEvent_1_001_000.pt) | Fitipower |
 |  TFLite |  int8     |    97.80 |   -    |    62     |       224  | [link(shuttle version)](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/AudioSoundEvents/ResnetSE/AudioSoundEvent_1_001_000.tflite) | Fitipower |
+
 ***Tabel Notes:***
 - ***Backend:** The deep learning framework used to infer the model.*
 - ***Precision:** The numerical precision used for training the model.*
