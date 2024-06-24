@@ -4,7 +4,7 @@
 
 **Category:** Object Detection
 
-**TrainingProgram:** [Yolov5](https://github.com/FITI-HCITA/yolov5)
+**TrainingProgram:** [Yolov5](https://github.com/FITI-HCITA/yolov5/tree/face_detect_VA8801)
 
 **Algorithm:** [Yolov5](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Face_Detection/Yolo/opt.yaml)
 
