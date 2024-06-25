@@ -10,7 +10,7 @@
 
 **Dataset:** ESL
 
-**Class:** Orange, Apple, Banana, Durian, Broccoli, Tomato, Pineapple, Pitaya, Strawberry, Grape
+**Class:** (0)Orange, (1)Apple, (2)Banana, (3)Durian, (4)Broccoli, (5)Tomato, (6)Pineapple, (7)Pitaya, (8)Strawberry, (9)Grape
 
 <div align="center">
     <a href="./">
