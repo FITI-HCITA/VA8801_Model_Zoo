@@ -4,6 +4,7 @@
 
 * Python: 3.9
 *Recommendation: Use [anaconda](https://www.anaconda.com/download/success) to manage enviroments*
+*Linux supported only*
 
 Install environment
 
@@ -30,13 +31,9 @@ Install requirements
 ```bash
 pip install -r requirements.txt
 ```
-If your OS is Ubuntu, install this package
+
 ```bash
 sudo apt install libsox-dev
-```
-If your OS is Windows, install this package
-```bash
-pip install PySoundFile
 ```
 
 ### 2. Data preparation
