@@ -16,14 +16,12 @@ Activate environment
 conda activate kws
 ```
 
-Install Pytorch
-
+Install Pytorch through the either command:
+* GPU supported
 ```bash
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
-
-If you don't have GPU, install PyTorch by the following command:
-
+* CPU only
 ```bash
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ```

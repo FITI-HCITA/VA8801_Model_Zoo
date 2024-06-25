@@ -16,26 +16,21 @@ Activate environment
 conda activate AC
 ```
 
-Install Pytorch
-
+Install Pytorch through the either command:
+* GPU supported
 ```bash
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
-
-If you don't have GPU, install PyTorch by the following command:
-
+* CPU only
 ```bash
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ```
 
 Install requirements
-
 ```bash
 pip install -r requirements.txt
 ```
-
 If your OS is Ubuntu, install this package
-
 ```bash
 sudo apt install libsox-dev
 ```
