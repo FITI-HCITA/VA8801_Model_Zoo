@@ -114,10 +114,13 @@ class AudioData(Dataset):
             # speed
             speed = np.random.choice([0.9, 1.0, 1.1])
             if speed != 1.0:
-                s, _ = ta.sox_effects.apply_effects_tensor(s, self.sr,[
-                    ['speed', str(speed)],
-                    ['rate', str(self.sr)],
-                    ])
+                s = s.squeeze().numpy()
+                s = lr.effects.time_stretch(s, rate=speed)
+                s = torch.from_numpy(s).view(1, -1)
+                #s, _ = ta.sox_effects.apply_effects_tensor(s, self.sr,[
+                #    ['speed', str(speed)],
+                #    ['rate', str(self.sr)],
+                #    ])
             # add noise
             s = self.noise_perturb(s)
         # crop
