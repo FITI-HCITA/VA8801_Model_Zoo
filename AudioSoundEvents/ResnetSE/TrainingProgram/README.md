@@ -34,6 +34,10 @@ If your OS is Ubuntu, install this package
 ```bash
 sudo apt install libsox-dev
 ```
+If your OS is Windows, install this package
+```bash
+pip install PySoundFile
+```
 
 ### 2. Data preparation
 You can finetune the model with sample data. If you want to use your own data, please read the following steps.

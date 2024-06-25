@@ -40,6 +40,7 @@ class AudioData(Dataset):
             label = idx
             cnt = 0
             for path in wavs:
+                path = str(path)
                 try:
                     info = ta.info(path)
                     t = info.num_frames / info.sample_rate
