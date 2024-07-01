@@ -35,4 +35,4 @@
 
 | Backend      | Precision(%) | Recall(%) | GFlops   | Params(M) | Inference(ms) |       Download                                                                                                                                | Author   |
 |:------------:|:-------------|:----------|:---------|:----------|:-------------:|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------|
-|  TFLite-int8 |    97.60     |    95.80  |    4.0   |    1.8    |       160       |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Hand_Gestures/Hand_Gestures_3_001_001.tflite)     | Fitipower|
+|  TFLite-int8 |    97.60     |    95.80  |    4.0   |    1.8    |        48       |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Hand_Gestures/Hand_Gestures_3_001_001.tflite)     | Fitipower|
