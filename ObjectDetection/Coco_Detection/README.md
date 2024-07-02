@@ -4,9 +4,9 @@
 
 **Category:** Pose Estimation
 
-**TrainingProgram:** [Yolov8 v8.1.0](https://github.com/ultralytics/ultralytics/tree/main) 
+**TrainingProgram:** [Yolov8](https://github.com/ultralytics/ultralytics/tree/main) 
 
-**Algorithm:** [Yolov8 v8.1.0](https://github.com/ultralytics/ultralytics/tree/main)
+**Algorithm:** [Yolov8](https://github.com/ultralytics/ultralytics/tree/main)
 
 **Dataset:** COCO dataset
 
