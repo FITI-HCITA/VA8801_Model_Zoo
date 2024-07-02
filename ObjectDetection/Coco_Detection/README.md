@@ -2,7 +2,7 @@
 
 **Version:** 2.001.001
 
-**Category:** Pose Estimation
+**Category:** object detection
 
 **TrainingProgram:** [Yolov8](https://github.com/ultralytics/ultralytics/tree/main) 
 
