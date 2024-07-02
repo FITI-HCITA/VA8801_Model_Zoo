@@ -1,4 +1,4 @@
-# Pose_Estimation_Yolo_320
+# Coco_Detection_Yolo_320
 
 **Version:** 2.001.001
 
