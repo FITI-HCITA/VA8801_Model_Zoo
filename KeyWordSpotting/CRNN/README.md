@@ -23,8 +23,8 @@
 
 | Backend | Precision(%) | Top-1(%) | MFlops | Params(K) | Inference     | Download | Author |
 |:--------|:-------------|:---------|:-------|:----------|:--------------|:---------|:-------|
-|  Tensorflow  |    FLOAT32   |   99     | 2.4  |    39     |       -       |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/KeyWordSpotting/ResnetSE/TrainingProgram/KWS_1_001_002.pt) | Fitipower|
-|  TFLite      |    INT8      |   98     |  -   |    39     |       -       |      [link(shuttle version)](https://github.com/FITI-HCITA/VA8801_Model_Zoo/tree/main/KeyWordSpotting/ResnetSE/KWS_1_001_002.tflite)  | Fitipower|
+|  Tensorflow  |    FLOAT32   |   99     | 2.4  |    39     |       -       |      [link](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/tree/main/KeyWordSpotting/CRNN/KWS_2_001_002) | Fitipower|
+|  TFLite      |    INT8      |   98     |  -   |    39     |       -       |      [link(shuttle version)](https://fp-gitlab/hcita/tinyml/va8801_model_zoo/-/blob/main/KeyWordSpotting/CRNN/KWS_2_001_002.tflite)  | Fitipower|
 
 ***Tabel Notes:***
 - ***Backend:** The deep learning framework used to infer the model.*
