@@ -53,7 +53,7 @@
 |:---------:|:---------:|:------------:|:-------------|:----------|:----------|:---------|:----------|:-------------:|:------------:|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------|
 |LowPower   |96x96x1    |  TFLite-int8 |    95.30     |    90.20  |     3     |    0.5   |    120    |       34       | 176.74 |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Human_Detection/Yolo/HUMAN_DET_6_001_001.tflite)  | Fitipower|
 |Standard   |224x224x1  |  TFLite-int8 |    95.00     |    96.70  |     4     |    0.5   |    260    |       34       | 176.74 |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Human_Detection/Yolo/HUMAN_DET_8_001_001.tflite)  | Fitipower|
-|Normal     |320x320x3  |  TFLite-int8 |    97.50     |    99.10  |     7     |    4.0   |    1.8    |       48        | 2.89 |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Human_Detection/Yolo/HUMAN_DET_7_002_002.tflite)  | Fitipower|
+|Normal     |320x320x3  |  TFLite-int8 |    97.50     |    99.10  |     7     |    4.0   |    1840   |       48       | 2960   |      [link](https://github.com/FITI-HCITA/VA8801_Model_Zoo/blob/main/ObjectDetection/Human_Detection/Yolo/HUMAN_DET_7_002_002.tflite)  | Fitipower|
 
 ***Table Notes:***
 
